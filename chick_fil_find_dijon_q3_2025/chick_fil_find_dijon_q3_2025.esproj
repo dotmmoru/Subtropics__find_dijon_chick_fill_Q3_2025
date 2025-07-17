@@ -11,7 +11,7 @@ sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 viewConfig:
   simulation:
     device: iPhone 14 Pro Max
-    cameraFov: 23.830000
+    cameraFov: 45.709999
     fullFrameAspect: 0.562500
     resolutionScale: 1.000000
     viewport: Maximized
@@ -19,7 +19,7 @@ viewConfig:
     stereoOutputEye: Center
     deviceTypeOverride: Unknown
     tint: true
-  cameraType: Back
+  cameraType: Front
 metaInfo:
   hints:
     []
@@ -35,7 +35,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: 954f60b8a0f2f8f82e098afe49892c9d
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.2.1.24102400

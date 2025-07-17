@@ -1,10 +1,12 @@
-- !<Material/480fc955-b602-43f6-8a33-72bdcfe56730>
+- !<Material/a8666199-1955-45cb-bee1-7ba1f39836e8>
   PackagePath: ""
   PassesInfo:
-    - !<own> 354fd440-9d71-479f-9b5d-e62299efb4d5
-- !<PassInfo/354fd440-9d71-479f-9b5d-e62299efb4d5>
+    - !<own> 2ec60348-e9c9-4845-ac19-d9cc1770c4c9
+- !<PassInfo/2ec60348-e9c9-4845-ac19-d9cc1770c4c9>
   CachedProperties:
-    []
+    - Port_Default_N369:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   DepthWrite: false
   DepthTest: false
   DepthFunction: LessEqual
@@ -16,11 +18,11 @@
   FrustumCullPad: 0.000000
   InstanceCount: 1
   Defines:
-    - ENABLE_BASE_TEX
     - NODE_13_DROPLIST_ITEM 0
     - NODE_27_DROPLIST_ITEM 0
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
+    - ENABLE_BASE_TEX
   BlendMode: PremultipliedAlphaAuto
   Properties:
     Port_Default_N204:
@@ -35,7 +37,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 753123cf-9ef0-4903-b62d-4926d45afc47
+        id: c33d8ca3-4ef8-4fd1-b99d-1a243b58c73d
         sampler:
           filteringMode: Trilinear
           wrapModeU: ClampToEdge

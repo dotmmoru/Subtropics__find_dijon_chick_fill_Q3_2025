@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/707f5317-00af-4e87-8ac1-f732fd1b65c3>
+- !<AssetImportMetadata/4657cabb-2eb7-42fd-b331-43fc76574be3>
   ImportedAssetIds:
-    ShaderGraph: !<reference> 2ca6f5b8-992a-4fdf-9a20-755a8b3a08bf
-  ImporterName: ShaderGraphPassImporter
-  PrimaryAsset: !<reference> 2ca6f5b8-992a-4fdf-9a20-755a8b3a08bf
+    FileAudioTrack: !<reference> 25a08fe8-ca6c-4347-b94b-899f720ddeec
+  ImporterName: FileAudioTrackImporter
+  PrimaryAsset: !<reference> 25a08fe8-ca6c-4347-b94b-899f720ddeec
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
