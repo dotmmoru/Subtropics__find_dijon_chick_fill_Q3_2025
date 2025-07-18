@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/b3125c72-76d2-47fc-a253-e6a7aea0975d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6ce31b38-6488-478b-8cdb-956d25139fab
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6ce31b38-6488-478b-8cdb-956d25139fab
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2d9f58fa-9124-4d49-9b19-0f412570db52
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2d9f58fa-9124-4d49-9b19-0f412570db52>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 44a25d44-f4ba-4087-916a-9b9c35501584
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    correctAnswerTex: false
+    progressDigitTex: false
+    scoreTex: false
+    wrongAnswerTex: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - correctAnswerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      wrongAnswerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      progressDigitTex: !<reference.Texture[]>
+        []
+      scoreTex: !<reference.Texture[]>
+        []
+  ScriptTypes:
+    -
+      {}

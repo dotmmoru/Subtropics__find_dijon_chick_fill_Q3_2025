@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/f643f72f-2ca4-4b04-b78f-471ab37021af>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 50fb885b-7254-4e16-bef8-6eccee3c3978
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 50fb885b-7254-4e16-bef8-6eccee3c3978
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 29b583c0-42e0-4a3d-9830-7654edb593f4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/29b583c0-42e0-4a3d-9830-7654edb593f4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 24da7a5f-ab18-4cc0-aecd-5aa6e37bfbb1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    burgersScr: false
+    delayToIntroTap: false
+    finalScoreScr: false
+    introPromptObj: false
+    progressScr: false
+    restartButton: false
+    signIntroObj: false
+    tableObj: false
+    uiHubObj: false
+    whereIsDijonObj: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - signIntroObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      introPromptObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      uiHubObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tableObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      whereIsDijonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      delayToIntroTap: !<float> 0.000000
+      restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      finalScoreScr: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      progressScr: !<reference.ScriptComponent[]>
+        []
+      burgersScr: !<reference.ScriptComponent[]>
+        []
+  ScriptTypes:
+    -
+      {}

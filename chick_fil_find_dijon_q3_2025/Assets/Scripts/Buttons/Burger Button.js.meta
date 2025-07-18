@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/5112a503-e53e-4a50-984e-8f33eb84c5dd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6a7fb2ff-d8e0-4a78-b05a-0081fd7f6811
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6a7fb2ff-d8e0-4a78-b05a-0081fd7f6811
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b09dd7ec-cca4-4087-b48b-6e7eb3c5628f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b09dd7ec-cca4-4087-b48b-6e7eb3c5628f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 54b3fe97-60c9-407e-8256-d043760c55bb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    dijonObj: false
+    tapHintObj: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - tapHintObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dijonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
