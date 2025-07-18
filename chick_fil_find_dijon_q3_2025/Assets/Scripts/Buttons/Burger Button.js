@@ -13,6 +13,7 @@ var thisScreenT = thisObj.getComponent("Component.ScreenTransform");
 
 var id = -1;
 var isTapEnabled = false;
+var isBounceEnabled = false;
 
 
 /////////////////////   FUNC   //////////////////////////
@@ -39,12 +40,15 @@ function Reset() {
 function Tap() {
     isTapEnabled = false;
     global.TapOnBurger(id);
+    if (isBounceEnabled)
+        global.tweenManager.startTween(thisObj, "bounce");
 }
 
 /////////////////////   API   //////////////////////////
 script.api.Init = function (_id) {
     id = _id;
     isTapEnabled = false;
+    isBounceEnabled = false;
     Start();
 }
 
@@ -107,6 +111,14 @@ script.api.PlayShuffle = function (newPos) {
     global.tweenManager.startTween(thisObj, "shuffle");
 }
 
+script.api.ShuffleDone = function () {
+    isTapEnabled = true;
+    isBounceEnabled = true;
+}
+
+script.api.UpdateTexture = function (tex) {
+    thisImg.mainPass.baseTex = tex;
+}
 /////////////////////   EVENTS   //////////////////////////
 var event_Tap = script.createEvent("TapEvent");
 event_Tap.bind(function (eventData) {

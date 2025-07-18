@@ -29,14 +29,27 @@
   ScriptInputsHidden:
     correctAnswerTex: false
     progressDigitTex: false
+    sandwichFinalTex: false
+    sandwichGameTex: false
+    sandwichIntroTex: false
     scoreTex: false
+    sighFinalTex: false
+    signIntroTex: false
     wrongAnswerTex: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - correctAnswerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+    - sandwichIntroTex: !<reference.Texture[]>
+        []
+      sandwichGameTex: !<reference.Texture[]>
+        []
+      sandwichFinalTex: !<reference.Texture[]>
+        []
+      signIntroTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      sighFinalTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      correctAnswerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       wrongAnswerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       progressDigitTex: !<reference.Texture[]>
         []

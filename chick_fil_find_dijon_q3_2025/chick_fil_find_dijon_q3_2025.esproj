@@ -25,7 +25,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Find Dijon
   lensDescriptors:
     []
   lensApplicability:
@@ -33,7 +33,6 @@ metaInfo:
     - Back
   lensClientCompatibilities:
     - Mobile
-    - Web
   platformBundlesEnabled: false
   iconHash: 954f60b8a0f2f8f82e098afe49892c9d
   videoPreviewHash: ""

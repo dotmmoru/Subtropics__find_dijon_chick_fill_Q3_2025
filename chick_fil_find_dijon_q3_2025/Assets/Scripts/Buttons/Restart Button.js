@@ -7,6 +7,7 @@ var isTapEnabled = false;
 /////////////////////   FUNC   //////////////////////////
 function Tap() {
     isTapEnabled = false;
+    global.OnClick_Restart();
 }
 
 function Reset() {
@@ -14,11 +15,6 @@ function Reset() {
 
     stopTweens(thisObj, ["show", "hide"]);
     startTweens(thisObj, ["init"]);
-}
-
-function Hide() {
-    stopTweens(thisObj, ["show"]);
-    startTweens(thisObj, ["hide"]);
 }
 
 /////////////////////   API   //////////////////////////
@@ -31,6 +27,11 @@ script.api.Show = function () {
 
     stopTweens(thisObj, ["hide"]);
     startTweens(thisObj, ["show"]);
+}
+
+script.api.Hide = function () {
+    stopTweens(thisObj, ["show"]);
+    startTweens(thisObj, ["hide"]);
 }
 
 /////////////////////   EVENTS   //////////////////////////

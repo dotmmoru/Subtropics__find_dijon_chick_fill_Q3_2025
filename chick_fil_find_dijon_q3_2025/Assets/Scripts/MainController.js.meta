@@ -29,11 +29,18 @@
   ScriptInputsHidden:
     burgersScr: false
     delayToIntroTap: false
+    failSFX: false
+    finalBurgerImg: false
+    finalBurgerObj: false
     finalScoreScr: false
     introPromptObj: false
     progressScr: false
     restartButton: false
+    shuffleAnimDuration: false
+    shufflePerRound: false
+    signIntroImg: false
     signIntroObj: false
+    successSFX: false
     tableObj: false
     uiHubObj: false
     whereIsDijonObj: false
@@ -43,16 +50,24 @@
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - signIntroObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      signIntroImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
       introPromptObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       uiHubObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       tableObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       whereIsDijonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      finalBurgerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      finalBurgerImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
       delayToIntroTap: !<float> 0.000000
       restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       finalScoreScr: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       progressScr: !<reference.ScriptComponent[]>
         []
       burgersScr: !<reference.ScriptComponent[]>
+        []
+      successSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      failSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      shuffleAnimDuration: !<float> 0.000000
+      shufflePerRound: !<int[]>
         []
   ScriptTypes:
     -
