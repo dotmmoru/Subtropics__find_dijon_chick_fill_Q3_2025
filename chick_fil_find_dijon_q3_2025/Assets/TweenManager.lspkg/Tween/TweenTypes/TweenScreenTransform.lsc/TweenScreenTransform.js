@@ -67,7 +67,7 @@
 
 var propertyTypes = ["Position", "Scale", "Rotation", "Anchors", "Offsets"];
 var PropertyType = {};
-propertyTypes.forEach(function(d, i) {
+propertyTypes.forEach(function (d, i) {
     PropertyType[d] = i;
 });
 
@@ -124,6 +124,7 @@ script.start = null;
 script.end = null;
 script.setStart = setStart;
 script.setEnd = setEnd;
+script.setTime = setTime;
 script.manualStart = false;
 script.manualEnd = false;
 script.playAutomatically = script.playAutomatically;
@@ -143,6 +144,10 @@ function setStart(start) {
 function setEnd(end) {
     script.manualEnd = true;
     script.end = end;
+}
+
+function setTime(time) {
+    script.time = time;
 }
 
 // Update the tween to its start

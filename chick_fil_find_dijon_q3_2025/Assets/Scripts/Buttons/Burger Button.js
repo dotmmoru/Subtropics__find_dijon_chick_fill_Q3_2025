@@ -106,7 +106,8 @@ script.api.PlayDijon = function (delay, duration) {
     });
 }
 
-script.api.PlayShuffle = function (newPos) {
+script.api.PlayShuffle = function (newPos, diration) {
+    global.tweenManager.setTime(thisObj, "shuffle", diration);
     global.tweenManager.setEndValue(thisObj, "shuffle", newPos);
     global.tweenManager.startTween(thisObj, "shuffle");
 }

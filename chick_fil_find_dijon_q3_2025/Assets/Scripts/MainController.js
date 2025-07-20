@@ -66,8 +66,8 @@ var successSFX = script.successSFX;
 var failSFX = script.failSFX;
 
 //@ui {"widget":"separator"}
-//@input float shuffleAnimDuration
-/** @type {number} */
+//@input float[] shuffleAnimDuration
+/** @type {number[]} */
 var shuffleAnimDuration = script.shuffleAnimDuration;
 //@input int[] shufflePerRound
 /** @type {number[]} */
@@ -149,7 +149,7 @@ function DoStateAction() {
             startTweens(uiHubObj, ["show"]);
 
             // show burgers
-            for (var i = 0; i < burgersScr.length; i++) {
+            for (var i = burgersScr.length - 1; i >= 0; i--) {
                 burgersScr[i].api.UpdateTexture(global.sandwichGameTex[i]);
                 burgersScr[i].api.Show();
             }
@@ -320,15 +320,15 @@ global.TapOnBurger = function (id) {
 global.PlayShuffle = function () {
     // play shuffle animation
     for (var i = 0; i < shufflePerRound[currentRound]; i++) {
-        global.delay(i * shuffleAnimDuration, () => {
+        global.delay(i * shuffleAnimDuration[currentRound], () => {
             var b1 = global.getRandomInt(burgersScr.length);
             var b2 = global.updateIndexInList(b1, burgersScr.length, Math.random() < 0.5);
 
             var b1Pos = burgersScr[b1].api.GetScreenPosition();
             var b2Pos = burgersScr[b2].api.GetScreenPosition();
 
-            burgersScr[b1].api.PlayShuffle(b2Pos);
-            burgersScr[b2].api.PlayShuffle(b1Pos);
+            burgersScr[b1].api.PlayShuffle(b2Pos, shuffleAnimDuration[currentRound]);
+            burgersScr[b2].api.PlayShuffle(b1Pos, shuffleAnimDuration[currentRound]);
         });
     }
 

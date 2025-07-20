@@ -1451,6 +1451,7 @@
     endOffsetsSize: true
     endOffsetsCenter: true
     additive: true
+    time: true
     delay: true
   ScriptTypesDefault:
     {}
@@ -1483,7 +1484,7 @@
       endOffsetsSize: !<Vec2> {x: 2.000000, y: 2.000000}
       endOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
       additive: false
-      time: 1.500000
+      time: !<float> 1.000000
       delay: !<float> 0.000000
       easingFunction: Back
       easingType: InOut
@@ -1808,7 +1809,6 @@
     endOffsetsSize: true
     endOffsetsCenter: true
     additive: true
-    time: true
     delay: true
   ScriptTypesDefault:
     {}
@@ -1841,7 +1841,7 @@
       endOffsetsSize: !<Vec2> {x: 2.000000, y: 2.000000}
       endOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
       additive: false
-      time: !<float> 1.000000
+      time: 1.500000
       delay: !<float> 0.000000
       easingFunction: Back
       easingType: InOut
@@ -3390,7 +3390,7 @@
     []
   Name: Image
   Enabled: true
-  RenderOrder: 1
+  RenderOrder: 2
   StretchMode: Fit
   VerticalAlignment: Center
   HorizontalAlignment: Center
@@ -3887,7 +3887,7 @@
     []
   Name: Image
   Enabled: true
-  RenderOrder: 2
+  RenderOrder: 3
   StretchMode: Fit
   VerticalAlignment: Center
   HorizontalAlignment: Center
@@ -4637,11 +4637,14 @@
         - !<reference> f47afec5-5bb6-4a22-b1b1-040b8d52af7c
       successSFX: !<reference.AudioComponent> 079248b5-e72d-4d31-9742-5ead0b35cefc
       failSFX: !<reference.AudioComponent> b861a01d-c96d-4ea7-bd80-7c15b5e05d2b
-      shuffleAnimDuration: 0.400000
+      shuffleAnimDuration: !<float[]>
+        - 0.400000
+        - 0.340000
+        - 0.280000
       shufflePerRound: !<int[]>
-        - 2
-        - 2
-        - 2
+        - 3
+        - 5
+        - 5
   ScriptTypes:
     "":
       {}
