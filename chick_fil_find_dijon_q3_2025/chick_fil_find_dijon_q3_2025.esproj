@@ -15,7 +15,7 @@ viewConfig:
     fullFrameAspect: 0.562500
     resolutionScale: 1.000000
     viewport: Maximized
-    output: Live
+    output: Capture
     stereoOutputEye: Center
     deviceTypeOverride: Unknown
     tint: true
