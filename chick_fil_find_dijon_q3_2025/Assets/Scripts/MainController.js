@@ -198,6 +198,8 @@ function GuessDijon(id) {
     stopTweens(whereIsDijonObj, ["show"]);
     startTweens(whereIsDijonObj, ["hide"]);
 
+    burgersScr[selectedBurger].api.ShowOpenAnim();
+
     if (id == selectedBurger)
         Success();
     else
@@ -242,38 +244,40 @@ function ShowIntro(delay) {
 }
 
 function ShowFinal(delay) {
-    // hide game burgers
-    for (var i = 0; i < burgersScr.length; i++) {
-        burgersScr[i].api.Hide();
-    }
+    global.delay(2.2, () => {
+        // hide game burgers
+        for (var i = 0; i < burgersScr.length; i++) {
+            burgersScr[i].api.Hide();
+        }
 
-    //uiHubObj
-    stopTweens(uiHubObj, ["show"]);
-    startTweens(uiHubObj, ["hide"]);
+        //uiHubObj
+        stopTweens(uiHubObj, ["show"]);
+        startTweens(uiHubObj, ["hide"]);
 
-    // delay show final
-    global.delay(delay, () => {
-        //signIntroObj
-        signIntroImg.mainMaterial.mainPass.baseTex =
-            global.sighFinalTex;
+        // delay show final
+        global.delay(delay, () => {
+            //signIntroObj
+            signIntroImg.mainMaterial.mainPass.baseTex =
+                global.sighFinalTex;
 
-        stopTweens(signIntroObj, ["hide"]);
-        startTweens(signIntroObj, ["show"]);
+            stopTweens(signIntroObj, ["hide"]);
+            startTweens(signIntroObj, ["show"]);
 
-        //finalScoreScr
-        finalScoreScr.api.UpdateTexture(global.scoreTex[currentScore]);
-        finalScoreScr.api.Show();
+            //finalScoreScr
+            finalScoreScr.api.UpdateTexture(global.scoreTex[currentScore]);
+            finalScoreScr.api.Show();
 
-        //finalBurgerObj
-        finalBurgerImg.mainPass.baseTex = global.sandwichFinalTex[0];
-        stopTweens(finalBurgerObj, ["hide"]);
-        startTweens(finalBurgerObj, ["show"]);
-    });
+            //finalBurgerObj
+            finalBurgerImg.mainPass.baseTex = global.sandwichFinalTex[0];
+            stopTweens(finalBurgerObj, ["hide"]);
+            startTweens(finalBurgerObj, ["show"]);
+        });
 
-    // delay show restart button
-    global.delay(delay + 1, () => {
-        //finalScoreScr
-        restartButton.api.Show();
+        // delay show restart button
+        global.delay(delay + 1, () => {
+            //finalScoreScr
+            restartButton.api.Show();
+        });
     });
 }
 

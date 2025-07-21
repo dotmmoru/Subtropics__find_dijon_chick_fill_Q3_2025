@@ -27,6 +27,8 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    burgerAnimObj: false
+    burgerImgObj: false
     dijonObj: false
     tapHintObj: false
   ScriptTypesHidden:
@@ -35,6 +37,8 @@
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - tapHintObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burgerAnimObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burgerImgObj: !<reference.Image> 00000000-0000-0000-0000-000000000000
       dijonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -

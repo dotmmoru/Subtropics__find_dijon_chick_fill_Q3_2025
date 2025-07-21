@@ -3,6 +3,14 @@
 var tapHintObj = script.tapHintObj;
 
 //@ui {"widget":"separator"}
+//@input SceneObject burgerAnimObj
+/** @type {SceneObject} */
+var burgerAnimObj = script.burgerAnimObj;
+//@input Component.Image burgerImgObj
+/** @type {Image} */
+var burgerImgObj = script.burgerImgObj;
+
+//@ui {"widget":"separator"}
 //@input SceneObject dijonObj
 /** @type {SceneObject} */
 var dijonObj = script.dijonObj;
@@ -23,6 +31,8 @@ function Start() {
 
 function Reset() {
     isTapEnabled = false;
+    thisImg.enabled = true;
+    burgerAnimObj.enabled = false;
 
     //thisObj
     stopTweens(thisObj, ["show", "hide"]);
@@ -49,6 +59,7 @@ script.api.Init = function (_id) {
     id = _id;
     isTapEnabled = false;
     isBounceEnabled = false;
+
     Start();
 }
 
@@ -119,6 +130,17 @@ script.api.ShuffleDone = function () {
 
 script.api.UpdateTexture = function (tex) {
     thisImg.mainPass.baseTex = tex;
+}
+
+script.api.ShowOpenAnim = function () {
+    thisImg.enabled = false;
+    burgerAnimObj.enabled = true;
+    burgerImgObj.mainMaterial.mainPass.baseTex.control.play(2, 0)
+    global.delay(2, () => {
+        thisImg.enabled = true;
+        burgerAnimObj.enabled = false;
+    });
+
 }
 /////////////////////   EVENTS   //////////////////////////
 var event_Tap = script.createEvent("TapEvent");
