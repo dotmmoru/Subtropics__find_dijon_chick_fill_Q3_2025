@@ -1350,9 +1350,9 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -0.317415
+    bottom: -0.213674
     right: 1.000000
-    top: -0.130069
+    top: -0.026328
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -2194,7 +2194,7 @@
     []
   Name: Restart Button
   Enabled: true
-  Layers: 1048576
+  Layers: 2
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5275,6 +5275,7 @@
   ScriptInputsDefault:
     sceneObjectReference: true
     loopType: true
+    movementType: true
     offsetsParam: true
     startPosition: true
     startScale: true
@@ -5304,7 +5305,7 @@
       playAutomatically: false
       loopType: 0
       type: 3
-      movementType: 1
+      movementType: 0
       anchorsParam: 2
       offsetsParam: 0
       startPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5312,7 +5313,7 @@
       startRotation: !<float> 0.000000
       startAnchorsBounds: !<Vec4> {x: -1.000000, y: 1.000000, z: -1.000000, w: 1.000000}
       startAnchorsSize: !<Vec2> {x: 1.000000, y: 1.000000}
-      startAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.770000}
+      startAnchorsCenter: !<Vec2> {x: 0.000000, y: 1.000000}
       startOffsetsBounds: !<Vec4> {x: -1.000000, y: 1.000000, z: -1.000000, w: 1.000000}
       startOffsetsSize: !<Vec2> {x: 1.000000, y: 1.000000}
       startOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
