@@ -127,7 +127,6 @@ function Reset() {
         progressScr[i].api.Init(i);
 
     for (var i = 0; i < burgersScr.length; i++) {
-        burgersScr[i].api.UpdateTexture(global.sandwichIntroTex[i]);
         burgersScr[i].api.Init(i);
     }
 }
@@ -150,15 +149,17 @@ function DoStateAction() {
 
             // show burgers
             for (var i = burgersScr.length - 1; i >= 0; i--) {
-                burgersScr[i].api.UpdateTexture(global.sandwichGameTex[i]);
                 burgersScr[i].api.Show();
             }
             UpdateState(2);
             break;
         }
         case 2: {   // state 2 - play dijon
-            selectedBurger = global.getRandomInt(burgersScr.length);
-            burgersScr[selectedBurger].api.PlayDijon(1.5, 2);
+            if (selectedBurger < 0) {
+                selectedBurger = global.getRandomInt(burgersScr.length);
+                burgersScr[selectedBurger].api.PlayDijon(1.5);
+            } else
+                global.PlayShuffle();
             break;
         }
         case 3: {   // state 3 -  listen tap after shuffle 
@@ -166,7 +167,7 @@ function DoStateAction() {
         }
         case 4: {   // state 4 -final
             if (currentRound == roundsAmount) {
-                ShowFinal(1);
+                ShowFinal(0.8);
             } else {
                 UpdateState(2);
             }
@@ -203,8 +204,9 @@ function GuessDijon(id) {
     if (id == selectedBurger)
         Success();
     else
-        Fail()
-    global.delay(0.5, () => {
+        Fail();
+
+    global.delay(global.openBurgerAnimDuration + 0.5, () => {
         currentRound++;
         UpdateState(4);
     });
@@ -244,7 +246,7 @@ function ShowIntro(delay) {
 }
 
 function ShowFinal(delay) {
-    global.delay(2.2, () => {
+    global.delay(1.2, () => {
         // hide game burgers
         for (var i = 0; i < burgersScr.length; i++) {
             burgersScr[i].api.Hide();

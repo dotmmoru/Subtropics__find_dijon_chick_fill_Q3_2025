@@ -27,24 +27,28 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    addDijonAnim: false
+    addDijonAnimDuration: false
     correctAnswerTex: false
+    openBurgerAnim: false
+    openBurgerAnimDuration: false
     progressDigitTex: false
     sandwichFinalTex: false
-    sandwichGameTex: false
-    sandwichIntroTex: false
     scoreTex: false
     sighFinalTex: false
     signIntroTex: false
+    staticBurgerTex: false
     wrongAnswerTex: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - sandwichIntroTex: !<reference.Texture[]>
-        []
-      sandwichGameTex: !<reference.Texture[]>
-        []
+    - addDijonAnim: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      addDijonAnimDuration: !<float> 0.000000
+      openBurgerAnim: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      openBurgerAnimDuration: !<float> 0.000000
+      staticBurgerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       sandwichFinalTex: !<reference.Texture[]>
         []
       signIntroTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000

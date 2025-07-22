@@ -3,20 +3,16 @@
 var tapHintObj = script.tapHintObj;
 
 //@ui {"widget":"separator"}
-//@input SceneObject burgerAnimObj
-/** @type {SceneObject} */
-var burgerAnimObj = script.burgerAnimObj;
-//@input Component.Image burgerImgObj
+//@input Component.Image burgerAnimImg
 /** @type {Image} */
-var burgerImgObj = script.burgerImgObj;
+var burgerAnimImg = script.burgerAnimImg;
 
 //@ui {"widget":"separator"}
-//@input SceneObject dijonObj
+//@input SceneObject burgerNameObj
 /** @type {SceneObject} */
-var dijonObj = script.dijonObj;
+var burgerNameObj = script.burgerNameObj;
 
 var thisObj = script.getSceneObject();
-var thisImg = thisObj.getComponent("Component.Image");
 var thisScreenT = thisObj.getComponent("Component.ScreenTransform");
 
 var id = -1;
@@ -31,8 +27,8 @@ function Start() {
 
 function Reset() {
     isTapEnabled = false;
-    thisImg.enabled = true;
-    burgerAnimObj.enabled = false;
+    burgerNameObj.enabled = true;
+    burgerAnimImg.mainPass.baseTex = global.staticBurgerTex;
 
     //thisObj
     stopTweens(thisObj, ["show", "hide"]);
@@ -41,10 +37,6 @@ function Reset() {
     // tap hint
     stopTweens(tapHintObj, ["show", "hide"]);
     startTweens(tapHintObj, ["init"]);
-
-    //dijonObj
-    stopTweens(dijonObj, ["show", "hide"]);
-    startTweens(dijonObj, ["init"]);
 }
 
 function Tap() {
@@ -68,6 +60,7 @@ script.api.GetScreenPosition = function () {
 }
 
 script.api.Show = function () {
+    burgerNameObj.enabled = false;
     stopTweens(thisObj, ["hide"]);
     startTweens(thisObj, ["show"]);
 }
@@ -98,20 +91,13 @@ script.api.StopTapHint = function () {
     tapHintObj.enabled = false;
 }
 
-script.api.PlayDijon = function (delay, duration) {
+script.api.PlayDijon = function (delay) {
     global.delay(delay, () => {
-        //dijonObj
-        stopTweens(dijonObj, ["hide"]);
-        startTweens(dijonObj, ["show"]);
+        burgerAnimImg.mainPass.baseTex = global.addDijonAnim;
+        burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(1, 0)
     });
 
-    global.delay(delay + duration, () => {
-        // dijonObj
-        stopTweens(dijonObj, ["show"]);
-        startTweens(dijonObj, ["hide"]);
-    });
-
-    global.delay(delay + duration + 1, () => {
+    global.delay(delay + global.addDijonAnimDuration + 1, () => {
         // play shuffle animation
         global.PlayShuffle();
     });
@@ -128,17 +114,11 @@ script.api.ShuffleDone = function () {
     isBounceEnabled = true;
 }
 
-script.api.UpdateTexture = function (tex) {
-    thisImg.mainPass.baseTex = tex;
-}
-
 script.api.ShowOpenAnim = function () {
-    thisImg.enabled = false;
-    burgerAnimObj.enabled = true;
-    burgerImgObj.mainMaterial.mainPass.baseTex.control.play(2, 0)
-    global.delay(2, () => {
-        thisImg.enabled = true;
-        burgerAnimObj.enabled = false;
+    burgerAnimImg.mainPass.baseTex = global.openBurgerAnim;
+    burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(2, 0)
+    global.delay(global.openBurgerAnimDuration, () => {
+        burgerAnimImg.mainPass.baseTex = global.staticBurgerTex;
     });
 
 }
