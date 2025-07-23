@@ -37,7 +37,8 @@
   DefaultScriptInputs:
     - tapHintObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       burgerAnimImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      burgerNameObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burgerNameObj: !<reference.SceneObject[]>
+        []
   ScriptTypes:
     -
       {}

@@ -75,6 +75,7 @@ var shufflePerRound = script.shufflePerRound;
 
 
 var isFront = false;
+var dijonPlayed = false;
 var thisObj = script.getSceneObject();
 var currentState = 0;
 var selectedBurger = -1;
@@ -95,6 +96,8 @@ function Reset() {
     selectedBurger = -1;
     currentRound = 0;
     currentScore = 0;
+
+    dijonPlayed = false;
 
     //signIntroObj
     stopTweens(signIntroObj, ["show", "hide"]);
@@ -155,8 +158,8 @@ function DoStateAction() {
             break;
         }
         case 2: {   // state 2 - play dijon
-            if (selectedBurger < 0) {
-                selectedBurger = global.getRandomInt(burgersScr.length);
+            if (!dijonPlayed) {
+                dijonPlayed = true;
                 burgersScr[selectedBurger].api.PlayDijon(1.5);
             } else
                 global.PlayShuffle();
@@ -315,6 +318,7 @@ function UpdateState(state) {
 global.TapOnBurger = function (id) {
     switch (currentState) {
         case 0: {
+            selectedBurger = id;
             HideIntro(1);
             break;
         }
@@ -322,6 +326,10 @@ global.TapOnBurger = function (id) {
             GuessDijon(id);
             break;
         }
+    }
+
+    for (var i = 0; i < burgersScr.length; i++) {
+        burgersScr[i].api.DisableTap();
     }
 }
 
@@ -341,7 +349,7 @@ global.PlayShuffle = function () {
     }
 
     // enalbe tap AFTER shuffle
-    global.delay(shufflePerRound[currentRound] * 0.5, () => {
+    global.delay(shufflePerRound[currentRound] * shuffleAnimDuration[currentRound] + 0.5, () => {
 
         // go to state 3 - listen burger tap
         UpdateState(3);

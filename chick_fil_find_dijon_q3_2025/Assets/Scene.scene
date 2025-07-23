@@ -147,7 +147,6 @@
   Children:
     - !<own> f84bc50a-f3af-437c-91ab-3249d879448a
     - !<own> 94d3d7fd-5f9d-4717-8cd5-e761d8e44484
-    - !<own> 918a9514-7ec0-417c-a0dc-4959e1ca49a8
   Components:
     - !<own> edc59ea7-71ad-4da0-ab8e-ff30105d2b76
     - !<own> 14025596-c647-430f-b77e-fd0d34fe87a4
@@ -1009,7 +1008,9 @@
     "":
       tapHintObj: !<reference.SceneObject> 28438fb1-d39c-4545-8054-aa707208947f
       burgerAnimImg: !<reference.Image> 1cf5db7b-7070-4503-8af7-2a8148fd0005
-      burgerNameObj: !<reference.SceneObject> b12df2f5-d729-411b-bd4f-661210f7aa14
+      burgerNameObj: !<reference.SceneObject[]>
+        - !<reference> b12df2f5-d729-411b-bd4f-661210f7aa14
+        - !<reference> 9140c543-1a2e-4fee-9bca-2f4f362b487d
   ScriptTypes:
     "":
       {}
@@ -1399,7 +1400,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 0.692641, y: 0.692641, z: 0.692641}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -1513,10 +1514,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 2d23a49b-45c0-46ad-b6c2-dfbd0139ab47
   Components:
     - !<own> b14efe38-3f4c-4abc-a3c5-ecf7e4ef9ed6
     - !<own> 46d638c7-2e69-49e1-83db-c1fc5f89495e
@@ -2444,7 +2445,7 @@
     Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 601f589b-2212-495a-b10c-2517b3dc6e33
+    []
   Components:
     - !<own> 2a39366e-2d3a-4d97-b37e-029380f8a725
     - !<own> 42848e2b-55b9-4a43-888e-ee930543a279
@@ -2671,7 +2672,7 @@
     []
   Name: Screen Transform
   Enabled: true
-  IsAdvanced: false
+  IsAdvanced: true
   Constraints:
     pinToLeft: false
     pinToTop: false
@@ -2685,10 +2686,10 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   RawMode: true
-  ForceBasic: true
+  ForceBasic: false
   Anchor:
     left: -1.000000
     bottom: -1.000000
@@ -2800,7 +2801,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 0.727273, y: 0.727273, z: 0.727273}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -3332,7 +3333,6 @@
   Children:
     - !<own> 88b87679-d061-4baa-92b6-60426f665269
     - !<own> 036e16c7-b3eb-4f99-9117-39265c5fa0d3
-    - !<own> 4f4ede91-f1c6-4e67-a090-cdc5ba2c73e4
   Components:
     - !<own> 3289728b-e78a-40cd-902b-4d43b7851a27
     - !<own> ee0fdc82-b6e8-4023-93e1-cce020cb5f87
@@ -3682,7 +3682,6 @@
   Children:
     - !<own> 91b79dd5-9e49-4279-8f75-42ec379a09f8
     - !<own> 28438fb1-d39c-4545-8054-aa707208947f
-    - !<own> b12df2f5-d729-411b-bd4f-661210f7aa14
   Components:
     - !<own> f02f3217-6bf9-4f8f-b7cf-6f5e144b6cf1
     - !<own> 87406e51-c86a-489b-bd27-f89afcf2df49
@@ -3718,10 +3717,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 9140c543-1a2e-4fee-9bca-2f4f362b487d
   Components:
     - !<own> ed6f347c-5135-4009-92f0-b2650577f83d
     - !<own> 58ad0303-fa17-4c46-b201-fbc68fc0a8ea
@@ -3730,14 +3729,14 @@
     []
   Name: Sandwich Spicy Img Capture
   Enabled: true
-  Layers: 2
+  Layers: 4
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 601f589b-2212-495a-b10c-2517b3dc6e33
   Components:
     - !<own> c552ea33-456a-4d9e-bad8-5d24cdfd90d2
     - !<own> 70a59926-9a95-4979-9c83-434426c5fd5d
@@ -3987,9 +3986,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+    - !<own> 4f4ede91-f1c6-4e67-a090-cdc5ba2c73e4
     - !<own> 826ff045-d49e-495d-96e6-41b82ee967b1
   Components:
     - !<own> 559b333e-7c38-477d-bd33-ac4626f141a0
@@ -4098,7 +4098,7 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    scale: {x: 1.050000, y: 1.050000, z: 1.050000}
     hasSegmentScaleCompensation: false
   RawMode: true
   ForceBasic: true
@@ -4155,7 +4155,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 0.692641, y: 0.692641, z: 0.692641}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -4171,10 +4171,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    Scale: {x: 0.761905, y: 0.761905, z: 0.761905}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 2d23a49b-45c0-46ad-b6c2-dfbd0139ab47
+    []
   Components:
     - !<own> 77d53610-749b-49cc-9e03-45a955f4a883
     - !<own> 89237b2b-8605-46cd-923d-0570d723199c
@@ -4192,7 +4192,9 @@
     "":
       tapHintObj: !<reference.SceneObject> 94d3d7fd-5f9d-4717-8cd5-e761d8e44484
       burgerAnimImg: !<reference.Image> 334f2300-b967-4bf0-a50b-8ebb77693baa
-      burgerNameObj: !<reference.SceneObject> 918a9514-7ec0-417c-a0dc-4959e1ca49a8
+      burgerNameObj: !<reference.SceneObject[]>
+        - !<reference> 918a9514-7ec0-417c-a0dc-4959e1ca49a8
+        - !<reference> 2d23a49b-45c0-46ad-b6c2-dfbd0139ab47
   ScriptTypes:
     "":
       {}
@@ -4205,9 +4207,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 1.050000, y: 1.050000, z: 1.050000}
     HasSegmentScaleCompensation: false
   Children:
+    - !<own> b12df2f5-d729-411b-bd4f-661210f7aa14
     - !<own> 7eeaffd0-d45c-4f1c-a095-dded9bc3609c
   Components:
     - !<own> fdc9de71-97c0-4dc7-9372-51681cff3950
@@ -4778,12 +4781,12 @@
     pinToLeft: false
     pinToTop: false
     pinToRight: false
-    pinToBottom: false
+    pinToBottom: true
     fixedWidth: false
     fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 1.000000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -4792,13 +4795,13 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -1.000000
-    bottom: -1.699999
-    right: 1.000000
-    top: 0.300000
+    left: -0.700000
+    bottom: -1.000000
+    right: 0.700000
+    top: -0.850000
   Offset:
     left: 0.000000
-    bottom: 0.000000
+    bottom: -45.000000
     right: 0.000000
     top: 0.000000
 - !<ScreenTransform/a6d175e0-9784-4f24-8a41-3d07ed181dae>
@@ -4992,10 +4995,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    Scale: {x: 0.761905, y: 0.761905, z: 0.761905}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 9140c543-1a2e-4fee-9bca-2f4f362b487d
+    []
   Components:
     - !<own> 2396124f-2ccf-4a7c-9dc7-7374f311a05e
     - !<own> 33b94c04-5049-4ef0-8832-b8969b8d607a
@@ -5014,7 +5017,7 @@
     fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 1.000000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5024,9 +5027,9 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -1.000000
+    bottom: -2.000000
     right: 1.000000
-    top: 1.000000
+    top: 0.000000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -5309,10 +5312,10 @@
     left: -1.000000
     bottom: -1.000000
     right: 1.000000
-    top: 0.450000
+    top: 0.413332
   Offset:
     left: 0.000000
-    bottom: 178.920013
+    bottom: 158.092606
     right: 0.000000
     top: 0.000000
 - !<ScreenTransform/c552ea33-456a-4d9e-bad8-5d24cdfd90d2>
@@ -5330,7 +5333,7 @@
     fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 1.000000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5340,9 +5343,9 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -1.000000
+    bottom: -2.000000
     right: 1.000000
-    top: 1.000000
+    top: 0.000000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -5593,10 +5596,10 @@
     left: -1.000000
     bottom: -1.000000
     right: 1.000000
-    top: 0.650000
+    top: 0.606088
   Offset:
     left: 0.000000
-    bottom: 281.160004
+    bottom: 256.217926
     right: 0.000000
     top: 0.000000
 - !<Image/cb15b734-af96-4904-8640-a041ee95b217>
@@ -6209,12 +6212,12 @@
     pinToLeft: false
     pinToTop: false
     pinToRight: false
-    pinToBottom: false
+    pinToBottom: true
     fixedWidth: false
     fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 1.000000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6223,13 +6226,13 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -1.000000
-    bottom: -1.700000
-    right: 1.000000
-    top: 0.300001
+    left: -0.700000
+    bottom: -1.000000
+    right: 0.800000
+    top: -0.850000
   Offset:
     left: 0.000000
-    bottom: 0.000000
+    bottom: -45.000000
     right: 0.000000
     top: 0.000000
 - !<ScreenTransform/e2ae7500-b0ce-42ed-815c-36165cbc84ad>
@@ -6242,12 +6245,12 @@
     pinToLeft: false
     pinToTop: false
     pinToRight: false
-    pinToBottom: false
+    pinToBottom: true
     fixedWidth: false
     fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 1.000000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6256,13 +6259,13 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -1.000000
-    bottom: -1.700000
-    right: 1.000000
-    top: 0.300000
+    left: -0.700000
+    bottom: -1.000000
+    right: 0.700000
+    top: -0.850000
   Offset:
     left: 0.000000
-    bottom: 0.000000
+    bottom: -45.000000
     right: 0.000000
     top: 0.000000
 - !<ScriptComponent/e469eaf3-9063-4ba4-82a8-384f1c47a2ea>
@@ -6493,7 +6496,7 @@
     fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 1.000000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6503,9 +6506,9 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -1.000000
+    bottom: -2.000000
     right: 1.000000
-    top: 1.000000
+    top: 0.000000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -6839,7 +6842,9 @@
     "":
       tapHintObj: !<reference.SceneObject> 036e16c7-b3eb-4f99-9117-39265c5fa0d3
       burgerAnimImg: !<reference.Image> c9782d7b-2c15-4f0d-ae7f-49046b6aa245
-      burgerNameObj: !<reference.SceneObject> 4f4ede91-f1c6-4e67-a090-cdc5ba2c73e4
+      burgerNameObj: !<reference.SceneObject[]>
+        - !<reference> 4f4ede91-f1c6-4e67-a090-cdc5ba2c73e4
+        - !<reference> 601f589b-2212-495a-b10c-2517b3dc6e33
   ScriptTypes:
     "":
       {}
@@ -6879,9 +6884,10 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 1.050000, y: 1.050000, z: 1.050000}
     HasSegmentScaleCompensation: false
   Children:
+    - !<own> 918a9514-7ec0-417c-a0dc-4959e1ca49a8
     - !<own> 306ae72a-1eea-44e9-b32e-c599a789089e
   Components:
     - !<own> 8a888624-a530-40d6-a9da-bf781b9854e2
@@ -7008,7 +7014,7 @@
     []
   Name: Screen Transform
   Enabled: true
-  IsAdvanced: false
+  IsAdvanced: true
   Constraints:
     pinToLeft: false
     pinToTop: false
@@ -7022,10 +7028,10 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    scale: {x: 1.050000, y: 1.050000, z: 1.050000}
     hasSegmentScaleCompensation: false
   RawMode: true
-  ForceBasic: true
+  ForceBasic: false
   Anchor:
     left: -1.000000
     bottom: -1.000000

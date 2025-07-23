@@ -8,8 +8,8 @@ var tapHintObj = script.tapHintObj;
 var burgerAnimImg = script.burgerAnimImg;
 
 //@ui {"widget":"separator"}
-//@input SceneObject burgerNameObj
-/** @type {SceneObject} */
+//@input SceneObject[] burgerNameObj
+/** @type {SceneObject[]} */
 var burgerNameObj = script.burgerNameObj;
 
 var thisObj = script.getSceneObject();
@@ -27,7 +27,7 @@ function Start() {
 
 function Reset() {
     isTapEnabled = false;
-    burgerNameObj.enabled = true;
+    burgerNameObj.forEach(x => { x.enabled = true; })
     burgerAnimImg.mainPass.baseTex = global.staticBurgerTex;
 
     //thisObj
@@ -40,17 +40,17 @@ function Reset() {
 }
 
 function Tap() {
-    isTapEnabled = false;
-    global.TapOnBurger(id);
-    if (isBounceEnabled)
+    if (isTapEnabled) {
+        isTapEnabled = false;
+        global.TapOnBurger(id);
         global.tweenManager.startTween(thisObj, "bounce");
+    }
 }
 
 /////////////////////   API   //////////////////////////
 script.api.Init = function (_id) {
     id = _id;
     isTapEnabled = false;
-    isBounceEnabled = false;
 
     Start();
 }
@@ -60,7 +60,7 @@ script.api.GetScreenPosition = function () {
 }
 
 script.api.Show = function () {
-    burgerNameObj.enabled = false;
+    burgerNameObj.forEach(x => { x.enabled = false; })
     stopTweens(thisObj, ["hide"]);
     startTweens(thisObj, ["show"]);
 }
@@ -70,9 +70,12 @@ script.api.Hide = function () {
     startTweens(thisObj, ["hide"]);
 }
 
+script.api.DisableTap = function () {
+    isTapEnabled = false;
+}
+
 script.api.PlayTapHint = function (delay, duration) {
     isTapEnabled = true;
-    isBounceEnabled = true;
     tapHintObj.enabled = true;
 
     global.delay(delay, () => {
@@ -112,7 +115,6 @@ script.api.PlayShuffle = function (newPos, diration) {
 
 script.api.ShuffleDone = function () {
     isTapEnabled = true;
-    isBounceEnabled = true;
 }
 
 script.api.ShowOpenAnim = function () {
@@ -126,9 +128,7 @@ script.api.ShowOpenAnim = function () {
 /////////////////////   EVENTS   //////////////////////////
 var event_Tap = script.createEvent("TapEvent");
 event_Tap.bind(function (eventData) {
-    if (isTapEnabled) {
-        Tap();
-    }
+    Tap();
 });
 
 /////////////////////   RUN   //////////////////////////
