@@ -176,21 +176,23 @@ function DoStateAction() {
     }
 }
 
-function HideIntro() {
-    for (var i = 0; i < burgersScr.length; i++) {
-        burgersScr[i].api.StopTapHint();
-        burgersScr[i].api.Hide();
-    }
+function HideIntro(delay) {
+    global.delay(delay, () => {
+        for (var i = 0; i < burgersScr.length; i++) {
+            burgersScr[i].api.StopTapHint();
+            burgersScr[i].api.Hide();
+        }
 
-    //signIntroObj
-    stopTweens(signIntroObj, ["show"]);
-    startTweens(signIntroObj, ["hide"]);
+        //signIntroObj
+        stopTweens(signIntroObj, ["show"]);
+        startTweens(signIntroObj, ["hide"]);
 
-    //introPromptObj
-    stopTweens(introPromptObj, ["show"]);
-    startTweens(introPromptObj, ["hide"]);
+        //introPromptObj
+        stopTweens(introPromptObj, ["show"]);
+        startTweens(introPromptObj, ["hide"]);
 
-    global.delay(1, () => { UpdateState(1) });
+        global.delay(1, () => { UpdateState(1) });
+    });
 }
 
 function GuessDijon(id) {
@@ -313,7 +315,7 @@ function UpdateState(state) {
 global.TapOnBurger = function (id) {
     switch (currentState) {
         case 0: {
-            HideIntro();
+            HideIntro(1);
             break;
         }
         case 3: {
@@ -360,11 +362,6 @@ global.OnClick_Restart = function () {
 }
 
 /////////////////////   EVENTS   //////////////////////////
-var event_Tap = script.createEvent("TapEvent");
-event_Tap.bind(function (eventData) {
-
-});
-
 var event_Front = script.createEvent("CameraFrontEvent");
 event_Front.bind(function (eventData) {
     isFront = true;

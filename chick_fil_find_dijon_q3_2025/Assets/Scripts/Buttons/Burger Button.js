@@ -72,6 +72,7 @@ script.api.Hide = function () {
 
 script.api.PlayTapHint = function (delay, duration) {
     isTapEnabled = true;
+    isBounceEnabled = true;
     tapHintObj.enabled = true;
 
     global.delay(delay, () => {
