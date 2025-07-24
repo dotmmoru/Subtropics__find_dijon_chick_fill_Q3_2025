@@ -43,7 +43,7 @@ function Tap() {
     if (isTapEnabled) {
         isTapEnabled = false;
         global.TapOnBurger(id);
-        global.tweenManager.startTween(thisObj, "bounce");
+        global.tweenManager.startTween(burgerAnimImg.getSceneObject(), "bounce");
     }
 }
 
