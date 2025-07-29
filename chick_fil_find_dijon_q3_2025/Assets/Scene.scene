@@ -922,7 +922,7 @@
   Name: Image
   Enabled: true
   RenderOrder: 0
-  StretchMode: Fit
+  StretchMode: FitHeight
   VerticalAlignment: Center
   HorizontalAlignment: Center
   MeshShadowMode: None
@@ -1382,7 +1382,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.155000, y: 1.155000, z: 1.155000}
+    Scale: {x: 0.860000, y: 0.860000, z: 0.860000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -1497,7 +1497,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -1653,15 +1653,15 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 1.200000, y: 1.200000, z: 1.200000}
     hasSegmentScaleCompensation: false
   RawMode: true
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -0.329540
+    bottom: -0.296053
     right: 1.000000
-    top: -0.127399
+    top: -0.093912
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -2192,7 +2192,7 @@
   Name: Image
   Enabled: true
   RenderOrder: 0
-  StretchMode: Fit
+  StretchMode: FitHeight
   VerticalAlignment: Center
   HorizontalAlignment: Center
   MeshShadowMode: None
@@ -2621,7 +2621,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 0.860000, y: 0.860000, z: 0.860000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -3540,7 +3540,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -3556,7 +3556,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -3978,7 +3978,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.155000, y: 1.155000, z: 1.155000}
+    Scale: {x: 0.860000, y: 0.860000, z: 0.860000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -3994,7 +3994,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 0.840000, y: 0.840000, z: 0.840000}
+    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -4598,7 +4598,7 @@
     []
   Name: Screen Transform
   Enabled: true
-  IsAdvanced: false
+  IsAdvanced: true
   Constraints:
     pinToLeft: false
     pinToTop: false
@@ -4612,10 +4612,10 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 0.860000, y: 0.860000, z: 0.860000}
     hasSegmentScaleCompensation: false
   RawMode: true
-  ForceBasic: true
+  ForceBasic: false
   Anchor:
     left: -1.000000
     bottom: -1.000000
@@ -4817,7 +4817,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 0.840000, y: 0.840000, z: 0.840000}
+    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -4843,15 +4843,15 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   RawMode: true
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -2.000000
+    bottom: -2.100000
     right: 1.000000
-    top: 0.000000
+    top: -0.100000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -5225,15 +5225,15 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   RawMode: true
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -2.000000
+    bottom: -2.100000
     right: 1.000000
-    top: 0.000000
+    top: -0.100000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -5825,7 +5825,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Scale: {x: 1.200000, y: 1.200000, z: 1.200000}
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 2de4f95b-dc69-4936-a088-fec837c818f0
@@ -5981,7 +5981,7 @@
     []
   Name: Screen Transform
   Enabled: true
-  IsAdvanced: false
+  IsAdvanced: true
   Constraints:
     pinToLeft: false
     pinToTop: false
@@ -5995,10 +5995,10 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 0.860000, y: 0.860000, z: 0.860000}
     hasSegmentScaleCompensation: false
   RawMode: true
-  ForceBasic: true
+  ForceBasic: false
   Anchor:
     left: -1.000000
     bottom: -1.000000
@@ -6014,7 +6014,7 @@
     []
   Name: Screen Transform
   Enabled: true
-  IsAdvanced: false
+  IsAdvanced: true
   Constraints:
     pinToLeft: false
     pinToTop: false
@@ -6028,10 +6028,10 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 0.860000, y: 0.860000, z: 0.860000}
     hasSegmentScaleCompensation: false
   RawMode: true
-  ForceBasic: true
+  ForceBasic: false
   Anchor:
     left: -1.000000
     bottom: -1.000000
@@ -6406,15 +6406,15 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   RawMode: true
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -2.000000
+    bottom: -2.100000
     right: 1.000000
-    top: 0.000000
+    top: -0.100000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -6493,7 +6493,7 @@
   Name: Image
   Enabled: true
   RenderOrder: 1
-  StretchMode: FitHeight
+  StretchMode: Fit
   VerticalAlignment: Center
   HorizontalAlignment: Center
   MeshShadowMode: None
