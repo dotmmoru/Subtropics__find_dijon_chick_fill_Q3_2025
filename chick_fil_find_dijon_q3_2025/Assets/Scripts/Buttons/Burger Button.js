@@ -29,8 +29,8 @@ function Reset() {
     isTapEnabled = false;
     burgerNameObj.forEach(x => { x.enabled = true; })
 
-    burgerAnimImg.mainPass.baseTex = global.addDijonAnim[id];
-    burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(0);
+    if (id >= 0)
+        SetBurgerTexture(global.addDijonAnim[id]);
 
     //thisObj
     stopTweens(thisObj, ["show", "hide"]);
@@ -39,6 +39,15 @@ function Reset() {
     // tap hint
     stopTweens(tapHintObj, ["show", "hide"]);
     startTweens(tapHintObj, ["init"]);
+}
+
+function SetBurgerTexture(texture) {
+    burgerAnimImg.mainPass.baseTex = texture;
+}
+
+function StopAtLastFrame() {
+    var count = burgerAnimImg.mainMaterial.mainPass.baseTex.control.getFramesCount() - 1;
+    burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(count);
 }
 
 function Tap() {
@@ -63,6 +72,11 @@ script.api.GetScreenPosition = function () {
 
 script.api.Show = function () {
     burgerNameObj.forEach(x => { x.enabled = false; })
+    if (id == global.GetSelectedBurgerId())
+        SetBurgerTexture(global.addDijonAnim[global.GetSelectedBurgerId()]);//addDijonAnim
+    else
+        SetBurgerTexture(global.addDijonFirstFrame[global.GetSelectedBurgerId()]);//addDijonFirstFrame
+
     stopTweens(thisObj, ["hide"]);
     startTweens(thisObj, ["show"]);
 }
@@ -98,15 +112,17 @@ script.api.StopTapHint = function () {
 }
 
 script.api.PlayDijon = function (delay) {
+    print(id);
     global.delay(delay, () => {
-        burgerAnimImg.mainPass.baseTex = global.addDijonAnim[id];
+        SetBurgerTexture(global.addDijonAnim[global.GetSelectedBurgerId()]);
         burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(1, 0);
 
     });
 
     global.delay(delay + global.addDijonAnimDuration, () => {
-        burgerAnimImg.mainPass.baseTex = global.openBurgerAnim[id];
-        burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(0);
+        SetBurgerTexture(global.openBurgerAnim[global.GetSelectedBurgerId()]);
+        var count = burgerAnimImg.mainMaterial.mainPass.baseTex.control.getFramesCount() - 1;
+        burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(count);
     });
 
     global.delay(delay + global.addDijonAnimDuration + 1, () => {
@@ -126,10 +142,11 @@ script.api.ShuffleDone = function () {
 }
 
 script.api.ShowOpenAnim = function () {
-    burgerAnimImg.mainPass.baseTex = global.openBurgerAnim[id];
+    SetBurgerTexture(global.openBurgerAnim[global.GetSelectedBurgerId()]);
     burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(2, 0);
     global.delay(global.openBurgerAnimDuration, () => {
-        burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(0);
+        var count = burgerAnimImg.mainMaterial.mainPass.baseTex.control.getFramesCount() - 1;
+        burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(count);
     });
 
 }

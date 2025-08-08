@@ -155,6 +155,7 @@ function DoStateAction() {
 
             // show burgers
             for (var i = burgersScr.length - 1; i >= 0; i--) {
+
                 burgersScr[i].api.Show();
             }
             UpdateState(2);
@@ -163,6 +164,7 @@ function DoStateAction() {
         case 2: {   // state 2 - play dijon
             if (!dijonPlayed) {
                 dijonPlayed = true;
+                print(selectedBurger);
                 burgersScr[selectedBurger].api.PlayDijon(1.5);
             } else
                 global.PlayShuffle();
@@ -335,6 +337,10 @@ global.TapOnBurger = function (id) {
     for (var i = 0; i < burgersScr.length; i++) {
         burgersScr[i].api.DisableTap();
     }
+}
+
+global.GetSelectedBurgerId = function () {
+    return selectedBurger;
 }
 
 global.PlayShuffle = function () {

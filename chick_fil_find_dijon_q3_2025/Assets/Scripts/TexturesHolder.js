@@ -14,6 +14,11 @@ global.openBurgerAnim = script.openBurgerAnim;
 global.openBurgerAnimDuration = script.openBurgerAnimDuration;
 
 //@ui {"widget":"separator"}
+//@input Asset.Texture[] addDijonFirstFrame
+/** @type {Texture[]} */
+global.addDijonFirstFrame = script.addDijonFirstFrame;
+
+//@ui {"widget":"separator"}
 //@input Asset.Texture[] sandwichFinalTex
 /** @type {Texture[]} */
 global.sandwichFinalTex = script.sandwichFinalTex;

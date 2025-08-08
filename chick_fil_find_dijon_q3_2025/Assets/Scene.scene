@@ -6406,12 +6406,16 @@
         - !<reference> ad331eaf-77a6-438b-94d7-5d03dcf953b2
         - !<reference> 34577e72-a01e-40ef-96cb-41220e42c74a
         - !<reference> cd91552c-6337-4035-90a6-9fa6a6e298da
-      addDijonAnimDuration: 2.200000
+      addDijonAnimDuration: 2.500000
       openBurgerAnim: !<reference.Texture[]>
         - !<reference> 439a73b5-9742-4433-a0ba-dafcbb7c8f27
         - !<reference> 2f1338f6-6775-4fce-988b-6b9f72cda8c0
         - !<reference> 0563c4ea-b713-4790-83a5-b99cb57ef673
-      openBurgerAnimDuration: 2.100000
+      openBurgerAnimDuration: 2.500000
+      addDijonFirstFrame: !<reference.Texture[]>
+        - !<reference> 5e05f965-80a6-4c24-80c4-e4ca8591f84e
+        - !<reference> 1469e324-4278-4c22-b94a-2f7095c4fd98
+        - !<reference> dd1da13c-78dd-4847-b377-86485f886012
       sandwichFinalTex: !<reference.Texture[]>
         - !<reference> 498888f6-fe27-4437-9661-1214d4d95c5d
         - !<reference> 3d1d401b-76e2-416d-aefe-7ee2d0f7e008

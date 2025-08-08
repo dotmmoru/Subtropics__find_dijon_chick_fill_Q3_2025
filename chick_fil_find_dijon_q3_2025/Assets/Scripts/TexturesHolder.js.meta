@@ -29,6 +29,7 @@
   ScriptInputsHidden:
     addDijonAnim: false
     addDijonAnimDuration: false
+    addDijonFirstFrame: false
     copyFinalTex: false
     correctAnswerTex: false
     openBurgerAnim: false
@@ -50,6 +51,8 @@
       openBurgerAnim: !<reference.Texture[]>
         []
       openBurgerAnimDuration: !<float> 0.000000
+      addDijonFirstFrame: !<reference.Texture[]>
+        []
       sandwichFinalTex: !<reference.Texture[]>
         []
       copyFinalTex: !<reference.Texture[]>
