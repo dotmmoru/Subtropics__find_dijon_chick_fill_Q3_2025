@@ -6326,9 +6326,9 @@
       openBurgerAnimDuration: 1.500000
       staticBurgerTex: !<reference.Texture> 283c4f8f-e6d7-445f-b0b4-b29b8726ae60
       sandwichFinalTex: !<reference.Texture[]>
-        - !<reference> d14ff2d2-e774-4e66-976d-a34f56857e65
-        - !<reference> e5d10ef1-6469-44db-bf0d-bcea5dc1a10a
-        - !<reference> 09a54456-6c84-4e23-8c76-479a58e1f24f
+        - !<reference> 498888f6-fe27-4437-9661-1214d4d95c5d
+        - !<reference> 3d1d401b-76e2-416d-aefe-7ee2d0f7e008
+        - !<reference> 55230c5d-821a-412e-a33e-10b55cba4aef
       signIntroTex: !<reference.Texture> 0ef41f46-f569-4867-adc6-9256dbfbd909
       sighFinalTex: !<reference.Texture> 299c5277-5fef-40d2-a745-369da32c89fb
       correctAnswerTex: !<reference.Texture> 5ee5e72b-28ff-4dc5-b79c-e39acdfa3fc7
