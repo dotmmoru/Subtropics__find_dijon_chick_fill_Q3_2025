@@ -1,27 +1,25 @@
-//@input Asset.Texture addDijonAnim
-/** @type {Texture} */
+//@input Asset.Texture[] addDijonAnim
+/** @type {Texture[]} */
 global.addDijonAnim = script.addDijonAnim;
 //@input float addDijonAnimDuration
 /** @type {number} */
 global.addDijonAnimDuration = script.addDijonAnimDuration;
 
 //@ui {"widget":"separator"}
-//@input Asset.Texture openBurgerAnim
-/** @type {Texture} */
+//@input Asset.Texture[] openBurgerAnim
+/** @type {Texture[]} */
 global.openBurgerAnim = script.openBurgerAnim;
 //@input float openBurgerAnimDuration
 /** @type {number} */
 global.openBurgerAnimDuration = script.openBurgerAnimDuration;
 
 //@ui {"widget":"separator"}
-//@input Asset.Texture staticBurgerTex
-/** @type {Texture} */
-global.staticBurgerTex = script.staticBurgerTex;
-
-//@ui {"widget":"separator"}
 //@input Asset.Texture[] sandwichFinalTex
 /** @type {Texture[]} */
 global.sandwichFinalTex = script.sandwichFinalTex;
+//@input Asset.Texture[] copyFinalTex
+/** @type {Texture[]} */
+global.copyFinalTex = script.copyFinalTex;
 
 //@ui {"widget":"separator"}
 //@input Asset.Texture signIntroTex

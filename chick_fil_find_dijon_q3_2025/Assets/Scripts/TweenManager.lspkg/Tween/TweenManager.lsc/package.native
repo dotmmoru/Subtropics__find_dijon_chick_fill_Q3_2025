@@ -2,9 +2,9 @@
   PackagePath: ""
   StudioVersion:
     major: 5
-    minor: 11
-    patch: 0
-    build: 25061303
+    minor: 12
+    patch: 1
+    build: 25080420
     type: Unset
     buildFlavor: ""
     timestamp: 0
@@ -69,7 +69,7 @@
   VersionMajor: 1
   VersionMinor: 0
   VersionPatch: 0
-  UpdateCheckpoint: 64
+  UpdateCheckpoint: 68
   ExportUid: bcbbadd2-b08b-4253-a44b-b51613725fcb
   ComponentUid: be47575e-c717-4dcb-8a3b-39ca212b1d23
   CurrentVisibility: Locked

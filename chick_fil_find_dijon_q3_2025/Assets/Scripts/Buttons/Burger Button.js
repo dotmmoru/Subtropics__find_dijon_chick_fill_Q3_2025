@@ -28,7 +28,9 @@ function Start() {
 function Reset() {
     isTapEnabled = false;
     burgerNameObj.forEach(x => { x.enabled = true; })
-    burgerAnimImg.mainPass.baseTex = global.staticBurgerTex;
+
+    burgerAnimImg.mainPass.baseTex = global.addDijonAnim[id];
+    burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(0);
 
     //thisObj
     stopTweens(thisObj, ["show", "hide"]);
@@ -97,8 +99,14 @@ script.api.StopTapHint = function () {
 
 script.api.PlayDijon = function (delay) {
     global.delay(delay, () => {
-        burgerAnimImg.mainPass.baseTex = global.addDijonAnim;
-        burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(1, 0)
+        burgerAnimImg.mainPass.baseTex = global.addDijonAnim[id];
+        burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(1, 0);
+
+    });
+
+    global.delay(delay + global.addDijonAnimDuration, () => {
+        burgerAnimImg.mainPass.baseTex = global.openBurgerAnim[id];
+        burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(0);
     });
 
     global.delay(delay + global.addDijonAnimDuration + 1, () => {
@@ -118,10 +126,10 @@ script.api.ShuffleDone = function () {
 }
 
 script.api.ShowOpenAnim = function () {
-    burgerAnimImg.mainPass.baseTex = global.openBurgerAnim;
-    burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(2, 0)
+    burgerAnimImg.mainPass.baseTex = global.openBurgerAnim[id];
+    burgerAnimImg.mainMaterial.mainPass.baseTex.control.play(2, 0);
     global.delay(global.openBurgerAnimDuration, () => {
-        burgerAnimImg.mainPass.baseTex = global.staticBurgerTex;
+        burgerAnimImg.mainMaterial.mainPass.baseTex.control.pauseAtFrame(0);
     });
 
 }

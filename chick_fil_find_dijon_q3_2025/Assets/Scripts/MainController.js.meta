@@ -32,6 +32,7 @@
     failSFX: false
     finalBurgerImg: false
     finalBurgerObj: false
+    finalCopyImg: false
     finalScoreScr: false
     introPromptObj: false
     progressScr: false
@@ -57,6 +58,7 @@
       whereIsDijonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       finalBurgerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       finalBurgerImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      finalCopyImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
       delayToIntroTap: !<float> 0.000000
       restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       finalScoreScr: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000

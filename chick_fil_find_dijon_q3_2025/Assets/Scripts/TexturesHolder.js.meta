@@ -29,6 +29,7 @@
   ScriptInputsHidden:
     addDijonAnim: false
     addDijonAnimDuration: false
+    copyFinalTex: false
     correctAnswerTex: false
     openBurgerAnim: false
     openBurgerAnimDuration: false
@@ -37,19 +38,21 @@
     scoreTex: false
     sighFinalTex: false
     signIntroTex: false
-    staticBurgerTex: false
     wrongAnswerTex: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - addDijonAnim: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+    - addDijonAnim: !<reference.Texture[]>
+        []
       addDijonAnimDuration: !<float> 0.000000
-      openBurgerAnim: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      openBurgerAnim: !<reference.Texture[]>
+        []
       openBurgerAnimDuration: !<float> 0.000000
-      staticBurgerTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       sandwichFinalTex: !<reference.Texture[]>
+        []
+      copyFinalTex: !<reference.Texture[]>
         []
       signIntroTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       sighFinalTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
