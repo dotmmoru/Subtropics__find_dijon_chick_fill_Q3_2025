@@ -22,9 +22,6 @@ global.addDijonFirstFrame = script.addDijonFirstFrame;
 //@input Asset.Texture[] sandwichFinalTex
 /** @type {Texture[]} */
 global.sandwichFinalTex = script.sandwichFinalTex;
-//@input Asset.Texture[] copyFinalTex
-/** @type {Texture[]} */
-global.copyFinalTex = script.copyFinalTex;
 
 //@ui {"widget":"separator"}
 //@input Asset.Texture signIntroTex

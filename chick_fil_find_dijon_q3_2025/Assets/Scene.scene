@@ -114,25 +114,6 @@
   ScriptTypes:
     "":
       {}
-- !<Image/0261f4a1-bb54-4c3d-abd7-585ed2fe1600>
-  PrefabRemaps:
-    []
-  Name: Image
-  Enabled: true
-  RenderOrder: 1
-  StretchMode: Fit
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 04ed223a-0a61-4e35-8891-6326eb5712cb
-  FlipX: false
-  FlipY: false
-  RotationAngle: 0
-  Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/036e16c7-b3eb-4f99-9117-39265c5fa0d3>
   PrefabRemaps:
     []
@@ -1063,7 +1044,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> ee8c1416-ea0f-4c66-b6e5-34edeba0c3a7
+    []
   Components:
     - !<own> 66e229a8-894e-4926-b9f5-6b923e6ecadc
     - !<own> 195fe39e-981f-4fa0-8003-52aa9b4a7c62
@@ -1427,39 +1408,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-- !<ScreenTransform/2daa8c84-6362-4c6d-9da8-b4253e7b6d5e>
-  PrefabRemaps:
-    []
-  Name: Screen Transform
-  Enabled: true
-  IsAdvanced: false
-  Constraints:
-    pinToLeft: false
-    pinToTop: false
-    pinToRight: false
-    pinToBottom: false
-    fixedWidth: false
-    fixedHeight: false
-    deactivatedFixedSprite: false
-    deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
-  Transform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  RawMode: true
-  ForceBasic: true
-  Anchor:
-    left: 0.962755
-    bottom: -0.792105
-    right: 2.572214
-    top: 0.157895
-  Offset:
-    left: 0.000000
-    bottom: 0.000000
-    right: 0.000000
-    top: 0.000000
 - !<SceneObject/2de4f95b-dc69-4936-a088-fec837c818f0>
   PrefabRemaps:
     []
@@ -2705,9 +2653,9 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: 0.450000
-    right: 0.018976
-    top: 1.400000
+    bottom: 0.280184
+    right: 1.000000
+    top: 1.399999
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -3014,9 +2962,9 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: 0.450000
-    right: 0.018976
-    top: 1.400000
+    bottom: 0.105217
+    right: 1.000000
+    top: 1.274936
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -4013,7 +3961,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 98f3eec5-3972-44a1-9e56-bcc39baacec7
+    []
   Components:
     - !<own> 604e4010-e533-4b7c-920d-f72071713e55
     - !<own> ef6d05ca-2a9b-4b7e-880a-0fc05bc8dbb3
@@ -4241,22 +4189,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/98f3eec5-3972-44a1-9e56-bcc39baacec7>
-  PrefabRemaps:
-    []
-  Name: Copy Final Live
-  Enabled: true
-  Layers: 2
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> f843a91d-4579-4b29-a75c-d67906a27220
-    - !<own> 0261f4a1-bb54-4c3d-abd7-585ed2fe1600
 - !<ScriptComponent/99173989-c9fe-4d6a-8e12-9d8c28916def>
   PrefabRemaps:
     []
@@ -5264,10 +5196,10 @@
     left: -1.000000
     bottom: -1.000000
     right: 1.000000
-    top: 0.413332
+    top: 0.493802
   Offset:
     left: 0.000000
-    bottom: 158.092606
+    bottom: 203.799652
     right: 0.000000
     top: 0.000000
 - !<ScreenTransform/c552ea33-456a-4d9e-bad8-5d24cdfd90d2>
@@ -5365,7 +5297,6 @@
       whereIsDijonObj: !<reference.SceneObject> 62159fdd-a8e2-429f-a55d-414a21fab316
       finalBurgerObj: !<reference.SceneObject> 8e352394-0719-47b0-bbd9-b59976ed5704
       finalBurgerImg: !<reference.Image> ef6d05ca-2a9b-4b7e-880a-0fc05bc8dbb3
-      finalCopyImg: !<reference.Image> 0261f4a1-bb54-4c3d-abd7-585ed2fe1600
       delayToIntroTap: !<float> 3.000000
       restartButton: !<reference.ScriptComponent> 4748985c-30c7-4d39-8c2d-3468c9f6ff48
       finalScoreScr: !<reference.ScriptComponent> 1422ed24-d122-4353-bfde-6bd4c6b2af83
@@ -5549,10 +5480,10 @@
     left: -1.000000
     bottom: -1.000000
     right: 1.000000
-    top: 0.606088
+    top: 0.649828
   Offset:
     left: 0.000000
-    bottom: 256.217926
+    bottom: 281.062561
     right: 0.000000
     top: 0.000000
 - !<Image/cb15b734-af96-4904-8640-a041ee95b217>
@@ -5569,25 +5500,6 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 41d7aa64-dd3a-4d99-b902-85676c19e20f
-  FlipX: false
-  FlipY: false
-  RotationAngle: 0
-  Pivot: {x: 0.000000, y: 0.000000}
-  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-- !<Image/cf37777b-ba5b-47e9-b52f-425c2ae4fc74>
-  PrefabRemaps:
-    []
-  Name: Image
-  Enabled: true
-  RenderOrder: 1
-  StretchMode: Fit
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 04ed223a-0a61-4e35-8891-6326eb5712cb
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -6417,13 +6329,9 @@
         - !<reference> 1469e324-4278-4c22-b94a-2f7095c4fd98
         - !<reference> dd1da13c-78dd-4847-b377-86485f886012
       sandwichFinalTex: !<reference.Texture[]>
-        - !<reference> 498888f6-fe27-4437-9661-1214d4d95c5d
-        - !<reference> 3d1d401b-76e2-416d-aefe-7ee2d0f7e008
-        - !<reference> 55230c5d-821a-412e-a33e-10b55cba4aef
-      copyFinalTex: !<reference.Texture[]>
-        - !<reference> dd6d501d-c99c-4d09-ae79-bca442e161e6
-        - !<reference> 0fbc35b8-cdd7-4ccb-8ba7-d11e050a0784
-        - !<reference> 88c61c0a-2aeb-47e6-b62a-38cccb75d50d
+        - !<reference> 28cfc153-c66e-49d6-8a22-1e0159be7d10
+        - !<reference> b30a2cb2-3145-450f-8f7d-10f639970c56
+        - !<reference> 20cb8d7b-cd39-47f3-acc3-13909ba41f8f
       signIntroTex: !<reference.Texture> 0ef41f46-f569-4867-adc6-9256dbfbd909
       sighFinalTex: !<reference.Texture> 299c5277-5fef-40d2-a745-369da32c89fb
       correctAnswerTex: !<reference.Texture> 5ee5e72b-28ff-4dc5-b79c-e39acdfa3fc7
@@ -6567,22 +6475,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-- !<SceneObject/ee8c1416-ea0f-4c66-b6e5-34edeba0c3a7>
-  PrefabRemaps:
-    []
-  Name: Copy Final Capture
-  Enabled: true
-  Layers: 4
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 2daa8c84-6362-4c6d-9da8-b4253e7b6d5e
-    - !<own> cf37777b-ba5b-47e9-b52f-425c2ae4fc74
 - !<SceneObject/ef2b371b-7e45-49f6-8046-850abb8e2d4e>
   PrefabRemaps:
     []
@@ -6892,39 +6784,6 @@
     []
   Components:
     - !<own> ac3d8e64-91b4-4196-a525-f96013334bf5
-- !<ScreenTransform/f843a91d-4579-4b29-a75c-d67906a27220>
-  PrefabRemaps:
-    []
-  Name: Screen Transform
-  Enabled: true
-  IsAdvanced: false
-  Constraints:
-    pinToLeft: false
-    pinToTop: false
-    pinToRight: false
-    pinToBottom: false
-    fixedWidth: false
-    fixedHeight: false
-    deactivatedFixedSprite: false
-    deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
-  Transform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  RawMode: true
-  ForceBasic: true
-  Anchor:
-    left: 0.962755
-    bottom: -0.792105
-    right: 2.572214
-    top: 0.157895
-  Offset:
-    left: 0.000000
-    bottom: 0.000000
-    right: 0.000000
-    top: 0.000000
 - !<SceneObject/f84bc50a-f3af-437c-91ab-3249d879448a>
   PrefabRemaps:
     []

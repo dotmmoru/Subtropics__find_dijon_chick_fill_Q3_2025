@@ -30,7 +30,6 @@
     addDijonAnim: false
     addDijonAnimDuration: false
     addDijonFirstFrame: false
-    copyFinalTex: false
     correctAnswerTex: false
     openBurgerAnim: false
     openBurgerAnimDuration: false
@@ -54,8 +53,6 @@
       addDijonFirstFrame: !<reference.Texture[]>
         []
       sandwichFinalTex: !<reference.Texture[]>
-        []
-      copyFinalTex: !<reference.Texture[]>
         []
       signIntroTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       sighFinalTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000

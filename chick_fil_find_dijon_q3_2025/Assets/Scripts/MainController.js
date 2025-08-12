@@ -31,9 +31,6 @@ var finalBurgerObj = script.finalBurgerObj;
 //@input Component.Image finalBurgerImg
 /** @type {Image} */
 var finalBurgerImg = script.finalBurgerImg;
-//@input Component.Image finalCopyImg
-/** @type {Image} */
-var finalCopyImg = script.finalCopyImg;
 
 //@ui {"widget":"separator"}
 //@input float delayToIntroTap
@@ -281,7 +278,6 @@ function ShowFinal(delay) {
 
             //finalBurgerObj
             finalBurgerImg.mainPass.baseTex = global.sandwichFinalTex[selectedBurger];
-            finalCopyImg.mainPass.baseTex = global.copyFinalTex[selectedBurger];
             stopTweens(finalBurgerObj, ["hide"]);
             startTweens(finalBurgerObj, ["show"]);
         });
