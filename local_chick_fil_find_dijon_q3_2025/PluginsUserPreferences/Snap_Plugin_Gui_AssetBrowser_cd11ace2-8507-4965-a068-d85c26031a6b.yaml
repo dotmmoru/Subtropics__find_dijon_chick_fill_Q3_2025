@@ -1,0 +1,74 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 68
+    values:
+      - ""
+      - Animations
+      - Animations/Hint_Swap_Camera.lensanim
+      - Animations/Hint_Tap_No_Dot.lensanim
+      - Animations/Hint_Tap_No_Dot.lensanim/Hint_Tap_No_Dot
+      - Animations/Hint_Tap_No_Dot.lensanim/LPD_87_Hint_TAP_out_v01.png
+      - Animations/Mustard Animations
+      - Animations/Mustard Animations/Grilled_Burger_Anim
+      - Animations/Mustard Animations/OG_Burger_Anim
+      - Animations/With Mustard/Grilled_Burger_Mustard
+      - Animations/With Mustard/OG_Burger_Mustard
+      - Animations/With Mustard/Spicy_Burger_Mustard
+      - Copy-Prompt_local 2.png
+      - Materials
+      - Materials/Copy Prompt.mat
+      - Materials/Final Score.mat
+      - Materials/Flags.mat
+      - Materials/Restart Button.mat
+      - Materials/Sandwich Grilled.mat
+      - Materials/Sandwich Original.mat
+      - Materials/Sandwich Spicy.mat
+      - Materials/Sign Intro.mat
+      - Materials/Table.mat
+      - Materials/UI Button 1.mat
+      - Materials/UI Button 2.mat
+      - Materials/UI Button 3.mat
+      - Materials/UI Hub.mat
+      - Models
+      - Prefabs
+      - RTs
+      - SFX
+      - Scripts
+      - Scripts/TweenManager.lspkg
+      - Scripts/TweenManager.lspkg/Tween/Tween.lsc/package.native
+      - Scripts/TweenManager.lspkg/Tween/TweenManager.lsc/package.native
+      - Scripts/TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc/package.native
+      - Scripts/TweenManager.lspkg/package.native
+      - Shaders
+      - Shaders/flat.ss_graph
+      - Textures
+      - Textures/Club Burgers
+      - Textures/Club Burgers/Grilled-Pretzel-Cheddar-Club.png
+      - Textures/Club Burgers/Original-Pretzel-Cheddar-Club.png
+      - Textures/Club Burgers/Spicy-Pretzel-Cheddar-Club.png
+      - Textures/Copy/Copy-Prompt.png
+      - Textures/Copy/Copy-ShareScore.png
+      - Textures/Copy/Copy-WheresDijon.png
+      - Textures/Flags.png
+      - Textures/HUB/UI-Hub-01.png
+      - Textures/HUB/UI-Hub-02.png
+      - Textures/HUB/UI-Hub-03.png
+      - Textures/HUB/UI-Hub-Base.png
+      - Textures/HUB/UI-Hub-Correct.png
+      - Textures/HUB/UI-Hub-Incorrect.png
+      - Textures/Sandwich Final/Grilled-Sandwich.png
+      - Textures/Sandwich Final/OG-Sandwich.png
+      - Textures/Sandwich Final/Spicy-Sandwich.png
+      - Textures/Scores/Score-0.png
+      - Textures/Scores/Score-1.png
+      - Textures/Scores/Score-2.png
+      - Textures/Scores/Score-3.png
+      - Textures/Sign-Intro.png
+      - Textures/Sign-Result-Champion.png
+      - Textures/System
+      - Textures/System/Echopark.hdr
+      - Textures/Table.jpg
+      - Textures/UI-Restart.png
+      - VFX
+  options: 4
