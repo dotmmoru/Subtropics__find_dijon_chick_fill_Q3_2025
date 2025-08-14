@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5c11b1e4-7507-476c-a992-af9d22998813: 615b7bbc-aa32-4a2a-850a-7e93a42ef529/660765db14d2b691ff603ff20b8f3ea2/Data/Flags.png
+  Assets:
+    - !<FileTexture/5c11b1e4-7507-476c-a992-af9d22998813>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 720
+        Height: 174
+  SourceHash: 660765db14d2b691ff603ff20b8f3ea2
+  FileHash: 0bd370b18ab277ca2c7e3cbf8abb29da
+  NativePackageItems:
+    []

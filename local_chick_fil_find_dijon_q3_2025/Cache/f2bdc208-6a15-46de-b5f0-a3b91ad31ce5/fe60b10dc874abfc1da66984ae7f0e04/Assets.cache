@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b7ff640b-524f-452a-9d92-f97e6bdde3af: f2bdc208-6a15-46de-b5f0-a3b91ad31ce5/fe60b10dc874abfc1da66984ae7f0e04/Data/Copy-Prompt.png
+  Assets:
+    - !<FileTexture/b7ff640b-524f-452a-9d92-f97e6bdde3af>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 585
+        Height: 135
+  SourceHash: fe60b10dc874abfc1da66984ae7f0e04
+  FileHash: ea8e2807a38f6f84b8fa37c8f06452e0
+  NativePackageItems:
+    []

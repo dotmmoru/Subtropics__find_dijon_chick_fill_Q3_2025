@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    03256ec7-8c90-45ca-8096-1cb89f1aaf73: d9fb840c-7485-430c-9320-c1d177203f54/24912eddc46c25359a31a774ecb3cfbd/Data/Score-3.png
+  Assets:
+    - !<FileTexture/03256ec7-8c90-45ca-8096-1cb89f1aaf73>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 156
+        Height: 129
+  SourceHash: 24912eddc46c25359a31a774ecb3cfbd
+  FileHash: fac35f0daf3e671c4f0005c2fb49b90c
+  NativePackageItems:
+    []

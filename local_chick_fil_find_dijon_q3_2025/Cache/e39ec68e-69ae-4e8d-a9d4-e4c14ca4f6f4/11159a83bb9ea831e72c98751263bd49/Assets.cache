@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    498888f6-fe27-4437-9661-1214d4d95c5d: e39ec68e-69ae-4e8d-a9d4-e4c14ca4f6f4/11159a83bb9ea831e72c98751263bd49/Data/OG-Sandwich.png
+  Assets:
+    - !<FileTexture/498888f6-fe27-4437-9661-1214d4d95c5d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 838
+        Height: 531
+  SourceHash: 11159a83bb9ea831e72c98751263bd49
+  FileHash: 7318ff14955bc661fc23bb223c78c780
+  NativePackageItems:
+    []

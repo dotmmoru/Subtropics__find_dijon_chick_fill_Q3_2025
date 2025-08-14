@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    67f9fddc-46db-4fc3-b4be-813791449a64: 3a37b380-b780-48ac-a995-da7a0da0d8c2/7da2ff796742a161ab2acd225918a4fa/Data/Music-DrumsBaby-Loop.mp3
+  Assets:
+    - !<FileAudioTrack/67f9fddc-46db-4fc3-b4be-813791449a64>
+      PackagePath: ""
+  SourceHash: 7da2ff796742a161ab2acd225918a4fa
+  FileHash: a119627ea7aca39a130d540a0f4125c0
+  NativePackageItems:
+    []

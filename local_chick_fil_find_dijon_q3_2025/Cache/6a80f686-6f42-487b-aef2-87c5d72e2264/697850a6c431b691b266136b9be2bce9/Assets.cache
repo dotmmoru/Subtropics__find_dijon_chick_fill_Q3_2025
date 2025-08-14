@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    155fe30b-071e-492c-a155-51f131a9d742: 6a80f686-6f42-487b-aef2-87c5d72e2264/697850a6c431b691b266136b9be2bce9/Data/031206823-incorrect-answer.mp3
+  Assets:
+    - !<FileAudioTrack/155fe30b-071e-492c-a155-51f131a9d742>
+      PackagePath: ""
+  SourceHash: 697850a6c431b691b266136b9be2bce9
+  FileHash: e175f18d13e036c4745adfa0cc1c662e
+  NativePackageItems:
+    []

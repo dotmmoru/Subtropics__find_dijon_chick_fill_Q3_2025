@@ -1,0 +1,42 @@
+- !<AssetCache>
+  AssetFiles:
+    34577e72-a01e-40ef-96cb-41220e42c74a: 57632e86-0a0c-474b-85b6-7c0d55eb20a8/64b72e222b576ec97ca64639196bab30/Data/Grilled_Burger_Anim _v3.t3d
+    f2c612a9-924d-4336-81f2-5069a8919df5: 57632e86-0a0c-474b-85b6-7c0d55eb20a8/64b72e222b576ec97ca64639196bab30/Data/atlas_0.png
+    b80d42b4-1646-46dd-b65f-663d016ada3b: 57632e86-0a0c-474b-85b6-7c0d55eb20a8/64b72e222b576ec97ca64639196bab30/Data/atlas_1.png
+    a30f45a6-13b1-4fb9-8972-5d773ee9e3cc: 57632e86-0a0c-474b-85b6-7c0d55eb20a8/64b72e222b576ec97ca64639196bab30/Data/atlas_2.png
+  Assets:
+    - !<AnimatedTexture/34577e72-a01e-40ef-96cb-41220e42c74a>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.500000
+            value: 56
+      ReverseSupported: true
+      FrameSize: {x: 204, y: 204}
+      AnimationSequences:
+        default: 56
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/f2c612a9-924d-4336-81f2-5069a8919df5>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 816
+    - !<FileTexture/b80d42b4-1646-46dd-b65f-663d016ada3b>
+      PackagePath: atlas_1.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 816
+    - !<FileTexture/a30f45a6-13b1-4fb9-8972-5d773ee9e3cc>
+      PackagePath: atlas_2.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 816
+  SourceHash: 64b72e222b576ec97ca64639196bab30
+  FileHash: ceabf3ebad28ffc4b0a3b1e16fd5c5d0
+  NativePackageItems:
+    []

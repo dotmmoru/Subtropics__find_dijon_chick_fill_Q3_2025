@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e2c9018d-11b3-4a7d-8896-d31621c99b16: 187bebc9-bf36-4720-834c-6b7eeeed46a7/f2277934bea313b47fb0a8750f95389e/Data/Sandwich-Game-Original.png
+  Assets:
+    - !<FileTexture/e2c9018d-11b3-4a7d-8896-d31621c99b16>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 329
+        Height: 294
+  SourceHash: f2277934bea313b47fb0a8750f95389e
+  FileHash: 380e56250bb7afb6d62de73f5beeae6c
+  NativePackageItems:
+    []

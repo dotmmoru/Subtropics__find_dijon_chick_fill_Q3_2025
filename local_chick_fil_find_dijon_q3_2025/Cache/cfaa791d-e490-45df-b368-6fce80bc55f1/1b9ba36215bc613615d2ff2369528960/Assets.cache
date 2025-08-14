@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0936c6e3-361c-438a-9fd8-119262dce317: cfaa791d-e490-45df-b368-6fce80bc55f1/1b9ba36215bc613615d2ff2369528960/Data/UI-Hub-Incorrect.png
+  Assets:
+    - !<FileTexture/0936c6e3-361c-438a-9fd8-119262dce317>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 94
+        Height: 94
+  SourceHash: 1b9ba36215bc613615d2ff2369528960
+  FileHash: e183f7ad43988c256c063dca0901ae55
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f9a359d5-557c-4ac0-89d5-d583f940b1a7: 9e2134b5-7515-4997-8939-0659f5cad363/fbdbf1642e6cbe89d051cc1b47cbc21f/Data/BrandLogo.png
+  Assets:
+    - !<FileTexture/f9a359d5-557c-4ac0-89d5-d583f940b1a7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 312
+        Height: 81
+  SourceHash: fbdbf1642e6cbe89d051cc1b47cbc21f
+  FileHash: f9af38a429420602dcef9746a6aca580
+  NativePackageItems:
+    []

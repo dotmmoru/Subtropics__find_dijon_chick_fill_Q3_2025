@@ -1,0 +1,36 @@
+- !<AssetCache>
+  AssetFiles:
+    947b434e-51a8-44b9-9cfb-242f7c8cb7af: 297f662b-32da-4137-a082-5775d957e246/c000eb7bdbf3396952d409b965bc9e97/Data/OG_Burger_Anim 2.t3d
+    b3b37d54-fd2e-4bcc-b404-7f5707dffa7e: 297f662b-32da-4137-a082-5775d957e246/c000eb7bdbf3396952d409b965bc9e97/Data/atlas_0.png
+    b6f680a4-a121-4b39-8a6c-259b3cddf5dd: 297f662b-32da-4137-a082-5775d957e246/c000eb7bdbf3396952d409b965bc9e97/Data/atlas_1.png
+  Assets:
+    - !<AnimatedTexture/947b434e-51a8-44b9-9cfb-242f7c8cb7af>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.000000
+            value: 51
+      ReverseSupported: true
+      FrameSize: {x: 170, y: 178}
+      AnimationSequences:
+        default: 51
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/b3b37d54-fd2e-4bcc-b404-7f5707dffa7e>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 890
+    - !<FileTexture/b6f680a4-a121-4b39-8a6c-259b3cddf5dd>
+      PackagePath: atlas_1.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 890
+  SourceHash: c000eb7bdbf3396952d409b965bc9e97
+  FileHash: affbb6ccee5b48487ba0f9a6203f1331
+  NativePackageItems:
+    []

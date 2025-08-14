@@ -1,0 +1,94 @@
+- !<AssetImportMetadata/ef008091-ff55-7c62-8e17-1f05fef940bc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a8572a73-2abe-4a99-8b4e-7f2957ac4ef1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a8572a73-2abe-4a99-8b4e-7f2957ac4ef1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6a5225b6-16fa-43dd-89b3-5fa9f5eb620f
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6a5225b6-16fa-43dd-89b3-5fa9f5eb620f>
+  SvgIcon: "<svg width=\"512\" height=\"512\" viewBox=\"0 0 512 512\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_0_3)\">\n<mask id=\"mask0_0_3\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"41\" y=\"6\" width=\"429\" height=\"499\">\n<path d=\"M342.196 504.422C271.974 504.422 214.843 447.292 214.843 377.069V134.22C214.843 109.469 194.711 89.3364 169.96 89.3364H169.269C144.518 89.3364 124.386 109.469 124.386 134.22V463.187C124.386 485.959 105.923 504.422 83.1513 504.422C60.3796 504.422 41.917 485.959 41.917 463.187V134.22C41.917 63.9979 99.0471 6.86774 169.269 6.86774H169.96C240.182 6.86774 297.312 63.9979 297.312 134.22V377.069C297.312 401.82 317.445 421.953 342.196 421.953C366.946 421.953 387.079 401.82 387.079 377.069V221.709C387.079 198.937 405.542 180.475 428.313 180.475C451.085 180.475 469.548 198.937 469.548 221.709V377.069C469.548 447.292 412.418 504.422 342.196 504.422Z\" fill=\"white\"/>\n</mask>\n<g mask=\"url(#mask0_0_3)\">\n<path d=\"M-194.233 -315.806L859.308 737.735L908.752 688.292L-144.79 -365.25L-194.233 -315.806Z\" fill=\"#5ECCF2\"/>\n<path d=\"M-251.211 -259.414L802.331 794.128L851.774 744.684L-201.767 -308.857L-251.211 -259.414Z\" fill=\"#9DC679\"/>\n<path d=\"M-308.188 -203.021L745.353 850.52L794.796 801.077L-258.745 -252.465L-308.188 -203.021Z\" fill=\"#FDCB3E\"/>\n<path d=\"M-365.166 -146.629L688.375 906.913L737.819 857.469L-315.723 -196.072L-365.166 -146.629Z\" fill=\"#EF8F5A\"/>\n<path d=\"M-421.772 -90.4567L631.769 963.085L681.214 913.64L-372.328 -139.901L-421.772 -90.4567Z\" fill=\"#F3575A\"/>\n<path d=\"M-137.509 -372.456L910.604 686.486L960.302 637.298L-87.8114 -421.643L-137.509 -372.456Z\" fill=\"#B96DA7\"/>\n<path d=\"M-477.634 -32.3407L575.908 1021.2L625.352 971.756L-428.189 -81.7852L-477.634 -32.3407Z\" fill=\"#E86C9D\"/>\n</g>\n<circle cx=\"430.5\" cy=\"88.5\" r=\"44.5\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_0_3\">\n<rect width=\"512\" height=\"512\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+  SetupScript:
+    code: ""
+  Description: "Runs a tween on a Lens Studio ScreenTransform using TweenJS\n\n// ----- USAGE -----\n// Attach this script as a component after the Tween Manager script on either the same scene object or in a lower scene object in the Objects Panel.\n//\n// Assign a Scene Object that has a ScreenTransform component to the \"Scene Object\" property on this script.\n// -----------------"
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 18ee0c26-5ddb-4098-af9e-c1916da09a13
+  ExportUid: 5e6da54d-1a19-4e6a-856c-8a2d000ba7b1
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    additive: false
+    anchorsParam: false
+    delay: false
+    easingFunction: false
+    easingType: false
+    endAnchorsBounds: false
+    endAnchorsCenter: false
+    endAnchorsSize: false
+    endOffsetsBounds: false
+    endOffsetsCenter: false
+    endOffsetsSize: false
+    endPosition: false
+    endRotation: false
+    endScale: false
+    loopType: false
+    movementType: false
+    offsetsParam: false
+    playAutomatically: false
+    sceneObjectReference: false
+    startAnchorsBounds: false
+    startAnchorsCenter: false
+    startAnchorsSize: false
+    startOffsetsBounds: false
+    startOffsetsCenter: false
+    startOffsetsSize: false
+    startPosition: false
+    startRotation: false
+    startScale: false
+    time: false
+    tweenName: false
+    type: false
+  ScriptTypesHidden: {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 0
+      type: 0
+      movementType: 0
+      anchorsParam: 0
+      offsetsParam: 0
+      startPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      startScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRotation: !<float> 0.000000
+      startAnchorsBounds: !<Vec4> {x: -1.000000, y: 1.000000, z: -1.000000, w: 1.000000}
+      startAnchorsSize: !<Vec2> {x: 1.000000, y: 1.000000}
+      startAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      startOffsetsBounds: !<Vec4> {x: -1.000000, y: 1.000000, z: -1.000000, w: 1.000000}
+      startOffsetsSize: !<Vec2> {x: 1.000000, y: 1.000000}
+      startOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      endPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      endRotation: !<float> 0.000000
+      endAnchorsBounds: !<Vec4> {x: -1.000000, y: 1.000000, z: -1.000000, w: 1.000000}
+      endAnchorsSize: !<Vec2> {x: 2.000000, y: 2.000000}
+      endAnchorsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      endOffsetsBounds: !<Vec4> {x: -1.000000, y: 1.000000, z: -1.000000, w: 1.000000}
+      endOffsetsSize: !<Vec2> {x: 2.000000, y: 2.000000}
+      endOffsetsCenter: !<Vec2> {x: 0.000000, y: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      easingFunction: Quadratic
+      easingType: Out
+  ScriptTypes:
+    - {}

@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    0659c0db-bd8d-4424-bc33-1dc6f194286b: e3e95f28-55b5-4e22-a7e9-fb3c1c1cb38a/02b50795b4fc06782408d7e3e6de9c6f/Data/Sanswith Open.t3d
+    de61bef8-9645-4793-b64c-f94f3e907464: e3e95f28-55b5-4e22-a7e9-fb3c1c1cb38a/02b50795b4fc06782408d7e3e6de9c6f/Data/atlas_0.png
+  Assets:
+    - !<AnimatedTexture/0659c0db-bd8d-4424-bc33-1dc6f194286b>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 0.750000
+            value: 11
+      ReverseSupported: true
+      FrameSize: {x: 512, y: 512}
+      AnimationSequences:
+        default: 11
+      AutoPlay: false
+      Reversed: false
+      PingPong: true
+      CurrentSequence: default
+    - !<FileTexture/de61bef8-9645-4793-b64c-f94f3e907464>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 1536
+  SourceHash: 02b50795b4fc06782408d7e3e6de9c6f
+  FileHash: 219c486a633e507c0b9e079141d7933a
+  NativePackageItems:
+    []

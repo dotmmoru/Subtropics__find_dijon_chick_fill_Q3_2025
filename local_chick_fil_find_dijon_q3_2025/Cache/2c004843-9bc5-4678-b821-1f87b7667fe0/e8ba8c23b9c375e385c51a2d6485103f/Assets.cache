@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1a1940a1-01e6-4198-8515-ce5be60b12ea: 2c004843-9bc5-4678-b821-1f87b7667fe0/e8ba8c23b9c375e385c51a2d6485103f/Data/Sandwich-Grilled-Idle.png
+  Assets:
+    - !<FileTexture/1a1940a1-01e6-4198-8515-ce5be60b12ea>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 329
+        Height: 294
+  SourceHash: e8ba8c23b9c375e385c51a2d6485103f
+  FileHash: 61aebac244741792b9a187a67b6ced55
+  NativePackageItems:
+    []

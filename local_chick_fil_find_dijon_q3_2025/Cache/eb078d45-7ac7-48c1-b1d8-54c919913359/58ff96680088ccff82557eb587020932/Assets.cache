@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1469e324-4278-4c22-b94a-2f7095c4fd98: eb078d45-7ac7-48c1-b1d8-54c919913359/58ff96680088ccff82557eb587020932/Data/Grilled_Burger_Anim_v03_00000.png
+  Assets:
+    - !<FileTexture/1469e324-4278-4c22-b94a-2f7095c4fd98>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 384
+        Height: 384
+  SourceHash: 58ff96680088ccff82557eb587020932
+  FileHash: 18d4ec27005e1d8f1fa3ebd7acb329a6
+  NativePackageItems:
+    []

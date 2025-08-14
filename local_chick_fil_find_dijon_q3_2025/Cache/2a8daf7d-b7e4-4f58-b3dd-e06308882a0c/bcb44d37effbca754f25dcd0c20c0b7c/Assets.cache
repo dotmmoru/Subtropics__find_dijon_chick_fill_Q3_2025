@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0ef41f46-f569-4867-adc6-9256dbfbd909: 2a8daf7d-b7e4-4f58-b3dd-e06308882a0c/bcb44d37effbca754f25dcd0c20c0b7c/Data/Sign-Intro.png
+  Assets:
+    - !<FileTexture/0ef41f46-f569-4867-adc6-9256dbfbd909>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 492
+        Height: 394
+  SourceHash: bcb44d37effbca754f25dcd0c20c0b7c
+  FileHash: d9e6422a8d00ee37ac5529ff8d01746c
+  NativePackageItems:
+    []

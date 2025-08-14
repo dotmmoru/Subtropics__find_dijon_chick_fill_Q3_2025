@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dd1da13c-78dd-4847-b377-86485f886012: a29704fe-2a28-435a-aee2-30183081a438/f147ab1a289e8eab5de48309cbe79de9/Data/Spicy_Burger_Anim_v03_00000.png
+  Assets:
+    - !<FileTexture/dd1da13c-78dd-4847-b377-86485f886012>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 384
+        Height: 384
+  SourceHash: f147ab1a289e8eab5de48309cbe79de9
+  FileHash: 6c4cd6ee71868262e0dead503ee75ac0
+  NativePackageItems:
+    []

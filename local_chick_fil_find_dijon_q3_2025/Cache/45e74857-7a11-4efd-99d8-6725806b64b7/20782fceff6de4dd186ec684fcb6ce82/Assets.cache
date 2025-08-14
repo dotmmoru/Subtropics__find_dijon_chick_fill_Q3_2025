@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    299c5277-5fef-40d2-a745-369da32c89fb: 45e74857-7a11-4efd-99d8-6725806b64b7/20782fceff6de4dd186ec684fcb6ce82/Data/Sign-Result-Champion.png
+  Assets:
+    - !<FileTexture/299c5277-5fef-40d2-a745-369da32c89fb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 492
+        Height: 394
+  SourceHash: 20782fceff6de4dd186ec684fcb6ce82
+  FileHash: 5ae56eebf59a678280c45a6cd52205e1
+  NativePackageItems:
+    []

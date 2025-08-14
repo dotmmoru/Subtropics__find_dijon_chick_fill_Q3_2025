@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    cffce942-bba6-48ae-aaaf-eeae66001647: 126c5b84-b7af-4b08-886a-84a0a941f94a/f38a34600c9924b171d82ddef820ff7c/Data/Table.png
+  Assets:
+    - !<FileTexture/cffce942-bba6-48ae-aaaf-eeae66001647>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 720
+        Height: 512
+  SourceHash: f38a34600c9924b171d82ddef820ff7c
+  FileHash: 5f0ca52ed79a4ed8e47de41a8e793edc
+  NativePackageItems:
+    []

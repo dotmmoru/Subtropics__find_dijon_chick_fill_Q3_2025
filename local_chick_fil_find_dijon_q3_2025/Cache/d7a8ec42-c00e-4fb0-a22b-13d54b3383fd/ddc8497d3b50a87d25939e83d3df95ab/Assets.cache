@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3d1d401b-76e2-416d-aefe-7ee2d0f7e008: d7a8ec42-c00e-4fb0-a22b-13d54b3383fd/ddc8497d3b50a87d25939e83d3df95ab/Data/Grilled-Sandwich.png
+  Assets:
+    - !<FileTexture/3d1d401b-76e2-416d-aefe-7ee2d0f7e008>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 838
+        Height: 531
+  SourceHash: ddc8497d3b50a87d25939e83d3df95ab
+  FileHash: f99fa8f026d5203494ee8b39fcbc712c
+  NativePackageItems:
+    []

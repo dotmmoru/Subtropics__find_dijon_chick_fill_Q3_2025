@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    25a08fe8-ca6c-4347-b94b-899f720ddeec: 4657cabb-2eb7-42fd-b331-43fc76574be3/a2f2b55cb0a6caeb41f8a9280a4b2e25/Data/047951240-correct-answer-sound-04.mp3
+  Assets:
+    - !<FileAudioTrack/25a08fe8-ca6c-4347-b94b-899f720ddeec>
+      PackagePath: ""
+  SourceHash: a2f2b55cb0a6caeb41f8a9280a4b2e25
+  FileHash: a2342ab97b33a90a507c518706343a85
+  NativePackageItems:
+    []

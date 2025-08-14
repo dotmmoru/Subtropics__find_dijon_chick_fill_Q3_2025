@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8a242b0c-72c4-4b49-8e99-e912b3d2e674: 267d8876-42fb-44ea-93a1-fad3866b1d15/89ea6caf8b80d81e87dd72f94e37849e/Data/Copy-ShareScore.png
+  Assets:
+    - !<FileTexture/8a242b0c-72c4-4b49-8e99-e912b3d2e674>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 261
+        Height: 83
+  SourceHash: 89ea6caf8b80d81e87dd72f94e37849e
+  FileHash: 4a0d1741207508b2c553a7976771683f
+  NativePackageItems:
+    []

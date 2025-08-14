@@ -1,0 +1,132 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "screenTexture", 
+                	"label":       "Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "factor",
+                	"label":       "Blur Factor",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         5,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "angle",
+                	"label":       "Angle",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         180,
+                	"step":        "0.1",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "45.0"
+                },
+                
+                {
+                	"label":       "Opacity",
+                	"bindingName": "Tweak_N16",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "opacityTex", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "1",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "opacityblurFactor",
+                    	"label":       "Opacity Blur Factor",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         5,
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"_bindingName": "Tweak_N16",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Advanced",
+                	"bindingName": "Tweak_N7",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    {
+                    	"bindingName": "samples",
+                    	"label":       "Samples",
+                    	"widget":      "slider",
+                    	"min":         1,
+                    	"max":         50,
+                    	"step":        1,
+                    	"sortIndex":   "2",
+                    	"hint":        "Hihger sample numbers produce better results but may reduce performance."
+                    },
+                    
+                    {
+                    	"bindingName": "fit",
+                    	"label":       "Crop to Fit",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "3",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "Tweak_N7",
+                	"widget": "group_end"
+                }
+                ,
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

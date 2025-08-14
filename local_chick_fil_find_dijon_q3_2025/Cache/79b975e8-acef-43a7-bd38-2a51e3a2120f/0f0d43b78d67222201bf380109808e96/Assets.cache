@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5e05f965-80a6-4c24-80c4-e4ca8591f84e: 79b975e8-acef-43a7-bd38-2a51e3a2120f/0f0d43b78d67222201bf380109808e96/Data/OG_Burger_Anim_v03_00000.png
+  Assets:
+    - !<FileTexture/5e05f965-80a6-4c24-80c4-e4ca8591f84e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 384
+        Height: 384
+  SourceHash: 0f0d43b78d67222201bf380109808e96
+  FileHash: 88ff6c4cab7d8363dee3642a512d92d9
+  NativePackageItems:
+    []

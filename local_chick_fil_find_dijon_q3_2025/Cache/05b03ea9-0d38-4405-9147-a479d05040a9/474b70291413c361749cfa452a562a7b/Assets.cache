@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    5ca44ef4-b66c-4399-a9b5-ccba5127f04c: 05b03ea9-0d38-4405-9147-a479d05040a9/474b70291413c361749cfa452a562a7b/Data/Add dijon.t3d
+    7ef134c6-bcb9-4cb6-9d14-cff6b35de4ce: 05b03ea9-0d38-4405-9147-a479d05040a9/474b70291413c361749cfa452a562a7b/Data/atlas_0.png
+  Assets:
+    - !<AnimatedTexture/5ca44ef4-b66c-4399-a9b5-ccba5127f04c>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.000000
+            value: 46
+      ReverseSupported: true
+      FrameSize: {x: 292, y: 292}
+      AnimationSequences:
+        default: 46
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/7ef134c6-bcb9-4cb6-9d14-cff6b35de4ce>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 2044
+        Height: 2044
+  SourceHash: 474b70291413c361749cfa452a562a7b
+  FileHash: 59d97e27414ebcfeda673eadbe9fa81e
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4303838b-7191-4573-94ee-8aecf3cf82e5: a1ee1e6d-5b19-4b65-8d4a-dfa269248a9e/f08da1f4dbd2b8eb53f1260a43f6f98c/Data/UI-Restart.png
+  Assets:
+    - !<FileTexture/4303838b-7191-4573-94ee-8aecf3cf82e5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 107
+        Height: 141
+  SourceHash: f08da1f4dbd2b8eb53f1260a43f6f98c
+  FileHash: 7ce805647b79c8ed50396106ece3d23c
+  NativePackageItems:
+    []

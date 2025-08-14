@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    13fd5f7a-2d46-46bd-867a-4420b1736a23: 6719df50-0a1d-4e36-a3f6-bbfa0c7102ff/f2277934bea313b47fb0a8750f95389e/Data/Sandwich-Game-Spicy.png
+  Assets:
+    - !<FileTexture/13fd5f7a-2d46-46bd-867a-4420b1736a23>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 329
+        Height: 294
+  SourceHash: f2277934bea313b47fb0a8750f95389e
+  FileHash: 380e56250bb7afb6d62de73f5beeae6c
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e5d10ef1-6469-44db-bf0d-bcea5dc1a10a: 39edbffd-b171-45dd-a5af-2e369033327d/ccac3d677dbb095864b5679e07149d3b/Data/Sandwich-Result-Grilled.png
+  Assets:
+    - !<FileTexture/e5d10ef1-6469-44db-bf0d-bcea5dc1a10a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 564
+        Height: 276
+  SourceHash: ccac3d677dbb095864b5679e07149d3b
+  FileHash: 5ce07dca32a0a41eb218a7b6bc8e595d
+  NativePackageItems:
+    []

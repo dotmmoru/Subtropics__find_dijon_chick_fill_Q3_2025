@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    283c4f8f-e6d7-445f-b0b4-b29b8726ae60: 60ed99e0-1083-44c4-b930-2aff0c2686f8/34bb700d10f504a06dadf491e3be8ce3/Data/Sandwich Static.png
+  Assets:
+    - !<FileTexture/283c4f8f-e6d7-445f-b0b4-b29b8726ae60>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 384
+        Height: 384
+  SourceHash: 34bb700d10f504a06dadf491e3be8ce3
+  FileHash: 7088e4941c77108e1da9b3f7e429bad7
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a5d4cc82-2762-4649-90e5-b400dfa55bf6: 03ce64e1-46f3-4f21-bd36-22f35ce690ff/ed3710c48d99d9b319aa9ed0ab783cf7/Data/UI-Hub-Base.png
+  Assets:
+    - !<FileTexture/a5d4cc82-2762-4649-90e5-b400dfa55bf6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 146
+        Height: 372
+  SourceHash: ed3710c48d99d9b319aa9ed0ab783cf7
+  FileHash: 5179e38b4ec856925774609692ce3f41
+  NativePackageItems:
+    []

@@ -1,0 +1,42 @@
+- !<AssetCache>
+  AssetFiles:
+    0563c4ea-b713-4790-83a5-b99cb57ef673: a75ada38-823d-4c2b-a0b2-65a6719ea61f/fb89d65f97630b6a98467321692350f1/Data/Spicy_Burger_Mustard_v3.t3d
+    fc6304ef-e5db-4e49-a8a9-019611fd228d: a75ada38-823d-4c2b-a0b2-65a6719ea61f/fb89d65f97630b6a98467321692350f1/Data/atlas_0.png
+    dcbd8797-dad5-42d7-813c-e6405c6994c2: a75ada38-823d-4c2b-a0b2-65a6719ea61f/fb89d65f97630b6a98467321692350f1/Data/atlas_1.png
+    a78616ff-0ed9-47c7-9861-6692ba0c0e87: a75ada38-823d-4c2b-a0b2-65a6719ea61f/fb89d65f97630b6a98467321692350f1/Data/atlas_2.png
+  Assets:
+    - !<AnimatedTexture/0563c4ea-b713-4790-83a5-b99cb57ef673>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.500000
+            value: 56
+      ReverseSupported: true
+      FrameSize: {x: 204, y: 204}
+      AnimationSequences:
+        default: 56
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/fc6304ef-e5db-4e49-a8a9-019611fd228d>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 816
+    - !<FileTexture/dcbd8797-dad5-42d7-813c-e6405c6994c2>
+      PackagePath: atlas_1.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 816
+    - !<FileTexture/a78616ff-0ed9-47c7-9861-6692ba0c0e87>
+      PackagePath: atlas_2.png
+      FileInfo: !<FileTextureInfo>
+        Width: 1020
+        Height: 816
+  SourceHash: fb89d65f97630b6a98467321692350f1
+  FileHash: ceabf3ebad28ffc4b0a3b1e16fd5c5d0
+  NativePackageItems:
+    []

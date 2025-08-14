@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a7ad862b-387f-4fa1-9834-19ad71841d27: 836da760-a40e-4c44-85c5-004452ca51e0/69bfcdc963070b3e9c145aa37b6fedd8/Data/Score-1.png
+  Assets:
+    - !<FileTexture/a7ad862b-387f-4fa1-9834-19ad71841d27>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 156
+        Height: 129
+  SourceHash: 69bfcdc963070b3e9c145aa37b6fedd8
+  FileHash: c2ea5e4a87832dfe613a82073a533484
+  NativePackageItems:
+    []

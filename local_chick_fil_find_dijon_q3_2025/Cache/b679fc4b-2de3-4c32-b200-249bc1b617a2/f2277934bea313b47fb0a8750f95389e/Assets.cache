@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    59a0c0d3-a417-4ffb-b30e-969b54969544: b679fc4b-2de3-4c32-b200-249bc1b617a2/f2277934bea313b47fb0a8750f95389e/Data/Sandwich-Game-Grilled.png
+  Assets:
+    - !<FileTexture/59a0c0d3-a417-4ffb-b30e-969b54969544>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 329
+        Height: 294
+  SourceHash: f2277934bea313b47fb0a8750f95389e
+  FileHash: 380e56250bb7afb6d62de73f5beeae6c
+  NativePackageItems:
+    []

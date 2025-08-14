@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dd6d501d-c99c-4d09-ae79-bca442e161e6: 8fb651e0-4329-4aac-9241-238dc5500503/0a476b5b3ddac17c2b184cdc64ec8b32/Data/Sandwich-Result-Original.png
+  Assets:
+    - !<FileTexture/dd6d501d-c99c-4d09-ae79-bca442e161e6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 198
+        Height: 80
+  SourceHash: 0a476b5b3ddac17c2b184cdc64ec8b32
+  FileHash: 0036ce03ab330ce0651809bbef4c177a
+  NativePackageItems:
+    []

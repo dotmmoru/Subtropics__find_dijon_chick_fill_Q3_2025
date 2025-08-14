@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    20cb8d7b-cd39-47f3-acc3-13909ba41f8f: 71e6cdc6-6669-448e-a3e0-c06952ca6729/3afa668e5fab62919f1951a8e655a6ee/Data/Spicy-Pretzel-Cheddar-Club.png
+  Assets:
+    - !<FileTexture/20cb8d7b-cd39-47f3-acc3-13909ba41f8f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 636
+        Height: 347
+  SourceHash: 3afa668e5fab62919f1951a8e655a6ee
+  FileHash: 95b791d094f86f1bbd4802d8dcc65e97
+  NativePackageItems:
+    []

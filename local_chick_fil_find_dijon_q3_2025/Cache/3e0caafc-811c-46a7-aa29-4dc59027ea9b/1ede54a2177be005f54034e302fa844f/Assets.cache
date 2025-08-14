@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3e04d7de-8b5f-48dd-ab55-a99e105d4850: 3e0caafc-811c-46a7-aa29-4dc59027ea9b/1ede54a2177be005f54034e302fa844f/Data/Sandwich-Spicy-Idle.png
+  Assets:
+    - !<FileTexture/3e04d7de-8b5f-48dd-ab55-a99e105d4850>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 329
+        Height: 294
+  SourceHash: 1ede54a2177be005f54034e302fa844f
+  FileHash: 21a8e3f79ad68f879692afc6eff58345
+  NativePackageItems:
+    []

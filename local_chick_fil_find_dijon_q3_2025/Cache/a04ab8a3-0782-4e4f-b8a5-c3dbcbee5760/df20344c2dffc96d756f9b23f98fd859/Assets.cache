@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    09a54456-6c84-4e23-8c76-479a58e1f24f: a04ab8a3-0782-4e4f-b8a5-c3dbcbee5760/df20344c2dffc96d756f9b23f98fd859/Data/Sandwich-Result-Spicy.png
+  Assets:
+    - !<FileTexture/09a54456-6c84-4e23-8c76-479a58e1f24f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 564
+        Height: 276
+  SourceHash: df20344c2dffc96d756f9b23f98fd859
+  FileHash: b051b7c81451e669810462209a7b2d76
+  NativePackageItems:
+    []

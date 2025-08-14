@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    890c50b8-36a7-42a1-9826-d796dfc8635c: 7f78f730-b5f2-4b6b-9792-9db82c47bc54/e9c1388328b871c9f0afa8cd9c569b4c/Data/047951253-correct-answer-sound-05.mp3
+  Assets:
+    - !<FileAudioTrack/890c50b8-36a7-42a1-9826-d796dfc8635c>
+      PackagePath: ""
+  SourceHash: e9c1388328b871c9f0afa8cd9c569b4c
+  FileHash: c7ea40a507def481f765b4f28c612221
+  NativePackageItems:
+    []

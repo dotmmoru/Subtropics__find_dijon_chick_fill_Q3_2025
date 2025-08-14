@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    0dfa8d97-6a8a-49d7-8e48-ba26e39359f3: 57aa68a8-e125-4151-a2cb-a0749394a741/4f3d549f5b77e524adb839f26d84419a/Data/Hint_Tap_No_Dot.lensanim
+    1dfcc4cd-d860-4387-9136-aca3d0e3d96a: 57aa68a8-e125-4151-a2cb-a0749394a741/4f3d549f5b77e524adb839f26d84419a/Data/LPD_87_Hint_TAP_out_v01.png
+  Assets:
+    - !<AnimatedTexture/0dfa8d97-6a8a-49d7-8e48-ba26e39359f3>
+      PackagePath: ""
+      keyFrames:
+        LPD_87_Hint_TAP_out_v01:
+          - time: 0.000000
+            value: 0
+          - time: 1.466667
+            value: 22
+      ReverseSupported: true
+      FrameSize: {x: 108, y: 103}
+      AnimationSequences:
+        LPD_87_Hint_TAP_out_v01: 22
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: LPD_87_Hint_TAP_out_v01
+    - !<FileTexture/1dfcc4cd-d860-4387-9136-aca3d0e3d96a>
+      PackagePath: LPD_87_Hint_TAP_out_v01.png
+      FileInfo: !<FileTextureInfo>
+        Width: 187
+        Height: 936
+  SourceHash: 4f3d549f5b77e524adb839f26d84419a
+  FileHash: e34a23d02ee2355d83f7721f0203414e
+  NativePackageItems:
+    []

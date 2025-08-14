@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    22f03c18-77ac-489b-be6e-d839a2d09d64: 3f003e21-4dc1-43b6-8484-ae81239cb9b8/f733053318c3a5e5e5850a4ffe9fd576/Data/Sandwich-Original-Idle.png
+  Assets:
+    - !<FileTexture/22f03c18-77ac-489b-be6e-d839a2d09d64>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 329
+        Height: 294
+  SourceHash: f733053318c3a5e5e5850a4ffe9fd576
+  FileHash: e26a78fbdf7fbd0fd3615dca339ddda3
+  NativePackageItems:
+    []

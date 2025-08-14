@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    d7250b90-34f7-4da6-b7d2-0f8bb58b9920: a1626549-d1ef-4ad5-bd26-f4b7436d2920/63bc352c47fde41e348c98d61c298770/Data/SFX-Incorrect.mp3
+  Assets:
+    - !<FileAudioTrack/d7250b90-34f7-4da6-b7d2-0f8bb58b9920>
+      PackagePath: ""
+  SourceHash: 63bc352c47fde41e348c98d61c298770
+  FileHash: 745465e740d0eac4b2c36384b94e859d
+  NativePackageItems:
+    []

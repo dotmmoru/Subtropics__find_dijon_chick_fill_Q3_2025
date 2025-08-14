@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    cd8ea4de-4cd1-42c4-b75a-1fa4133f867a: 0a1b3341-342b-43ff-876c-65a0b5b75913/2dbb1b4a39827bd873f7b5b59b8c4791/Data/Mustard.png
+  Assets:
+    - !<FileTexture/cd8ea4de-4cd1-42c4-b75a-1fa4133f867a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 243
+        Height: 461
+  SourceHash: 2dbb1b4a39827bd873f7b5b59b8c4791
+  FileHash: ad7340216738ea5d274e46032c7ee802
+  NativePackageItems:
+    []

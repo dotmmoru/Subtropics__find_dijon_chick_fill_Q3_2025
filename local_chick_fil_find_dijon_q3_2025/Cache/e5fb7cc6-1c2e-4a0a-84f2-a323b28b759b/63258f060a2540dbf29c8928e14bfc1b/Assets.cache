@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    19583b77-c7f0-4eb2-a73e-62389692e7c3: e5fb7cc6-1c2e-4a0a-84f2-a323b28b759b/63258f060a2540dbf29c8928e14bfc1b/Data/Copy-Prompt_local.png
+  Assets:
+    - !<FileTexture/19583b77-c7f0-4eb2-a73e-62389692e7c3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 585
+        Height: 135
+  SourceHash: 63258f060a2540dbf29c8928e14bfc1b
+  FileHash: 658c47419d475139bd5338d63ffab548
+  NativePackageItems:
+    []
